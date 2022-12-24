@@ -47,8 +47,9 @@ Oh My Zsh is a popular open-source framework for managing the Z shell, a Unix sh
 
 To set up Oh My Zsh after a new OS install, follow these steps:
 
-1. Install the Z shell:
-   Oh My Zsh is based on the Z shell, so you will need to install it first. On most systems, you can do this using the package manager. For example, on a Debian-based system, you can run the following command:
+### Install the Z shell:
+
+Oh My Zsh is based on the Z shell, so you will need to install it first. On most systems, you can do this using the package manager. For example, on a Debian-based system, you can run the following command:
 
 ```bash
 sudo apt-get install zsh
@@ -66,8 +67,9 @@ On macOS, you can install the Z shell using Homebrew:
 brew install zsh
 ```
 
-2. Install Oh My Zsh:
-   Once the Z shell is installed, you can install Oh My Zsh by running the following command:
+### Install Oh My Zsh:
+
+Once the Z shell is installed, you can install Oh My Zsh by running the following command:
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -75,7 +77,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 This will download and run the installation script, which will set up Oh My Zsh and configure your Z shell to use it.
 
-3. Customize your configuration:
-   Once Oh My Zsh is installed, you can customize your configuration by editing the ~/.zshrc file. This file contains a number of settings and options that you can use to customize your Z shell environment.
+### Customize your configuration:
+
+Once Oh My Zsh is installed, you can customize your configuration by editing the ~/.zshrc file. This file contains a number of settings and options that you can use to customize your Z shell environment.
 
 For example, you can change your theme by setting the ZSH_THEME variable to the name of the theme you want to use. You can also enable or disable plugins by adding or removing them from the plugins list.

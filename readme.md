@@ -26,11 +26,17 @@ This stack allows us to create a visually appealing and interactive portfolio we
 
 Before you get started, we recommend that you take a few minutes to read through our documentation page, which contains important information about the project, including setup instructions, guidelines, and best practices.
 
-We encourage all contributors to familiarize themselves with the information in our documentation before starting work on the project. It will help ensure that you are able to quickly and easily get up to speed with the project, and it will also help to ensure that the project is maintained to a high standard of quality.
+### Geek Central Station
 
-### Development Environment
+As a software engineer, your development environment is your digital workspace - it's where you do your best work and bring your brilliant ideas to life! Whether you're coding up a storm, debugging with precision, or testing out new features, your development environment plays a crucial role in your workflow and productivity.
 
--   []
+Think of your development environment as the foundation of your software engineering career. Without a solid foundation, your work will be unstable and prone to cracks and collapses. But with a well-crafted development environment, you'll be able to build with confidence and create amazing things!
+
+So don't skimp on your development environment - invest in the tools, configurations, and setup that work best for you. Your future self (and your teacher/boss) will thank you for it.
+
+Here is what we will need:
+
+-   [Unix-style Shell](shell.md)
 
 ## Resources
 

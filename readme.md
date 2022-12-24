@@ -36,7 +36,7 @@ So don't skimp on your development environment - invest in the tools, configurat
 
 Here is what we will need:
 
--   [Unix-style Shell](shell.md)
+-   [Unix-style Shell](docs/shell.md)
 
 ## Resources
 

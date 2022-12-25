@@ -1,3 +1,7 @@
+# Project cliff notes
+
+As a software engineer, you are probably always working on exciting and challenging projects that showcase your skills and abilities. A portfolio page is a great way to showcase your work and highlight your achievements to potential employers, clients, and colleagues. It's a way to demonstrate your expertise and give people a glimpse into your technical capabilities. Plus, it's a great way to reflect on your past work and see how far you've come in your career. So don't be shy - go ahead and create a portfolio page and show the world what you can do!
+
 # Let's hit the ground running!
 
 Welcome to the exciting world of web software development! If you're reading this, it means you're ready to dive into our project and start building something amazing.
@@ -21,26 +25,6 @@ Software development can be challenging, but you don't have to go it alone. Don'
 Above all, remember that building software is supposed to be fun! Don't get too caught up in the stress and pressure - enjoy the process and see where your creativity takes you.
 
 Alright, now that you're ready to roll, it's time to get started! Happy coding!
-
-# Project cliff notes
-
-As a software engineer, you are probably always working on exciting and challenging projects that showcase your skills and abilities. A portfolio page is a great way to showcase your work and highlight your achievements to potential employers, clients, and colleagues. It's a way to demonstrate your expertise and give people a glimpse into your technical capabilities. Plus, it's a great way to reflect on your past work and see how far you've come in your career. So don't be shy - go ahead and create a portfolio page and show the world what you can do!
-
-# The wizardry behind the curtain
-
-We're excited to share with you the tools and technologies we used to bring this project to life.
-
-First up, we have [Tailwind CSS](https://tailwindcss.com/docs). This powerful CSS framework helped us style our interface with ease, using a flexible and customizable set of utility classes. It was like a box of building blocks for our design needs.
-
-Next up, we have [AlpineJS](https://alpinejs.dev/). This lightweight JavaScript library added interactivity and dynamism to our interface, making it come alive with smooth transitions and responsive elements. It was like a pinch of magic dust for our user experience.
-
-Together, Tailwind CSS and AlpineJS made a formidable team, helping us create a beautiful and functional interface that delights our users. We hope you enjoy using it!
-
-# The secret sauce of great code
-
-We take code standards seriously around here - so seriously, in fact, that we have a whole team of [Code Heroes](/docs/code-standards.md) dedicated to sniffing out bad code and helping it reach its full potential.
-
-Code is like a good book - it should always be easy to read, understand, and enjoy. Okay, maybe not exactly like a good book, but you get the idea. When code is easy to read, understand, and maintain, it makes the development process smoother and more efficient. Imagine trying to read a book that was written in a foreign language, with no punctuation, and with random words and letters scattered throughout. Not exactly a pleasant experience, right? The same goes for code - when it's messy and hard to follow, it can be frustrating and time-consuming to work with. That's why code should always be easy to read, understand, and maintain - it just makes life (and coding) better for everyone involved.
 
 # The collaboration contraption
 
@@ -74,3 +58,19 @@ Let's get this show on the road! Follow these simple steps to get started:
 2.  [Node Version Manager](docs/nvm.md)
 3.  [Git](docs/git.md)
 4.  [VS Code](docs/vscode.md)
+
+# The wizardry behind the curtain
+
+We're excited to share with you the tools and technologies we used to bring this project to life.
+
+First up, we have [Tailwind CSS](https://tailwindcss.com/docs). This powerful CSS framework helped us style our interface with ease, using a flexible and customizable set of utility classes. It was like a box of building blocks for our design needs.
+
+Next up, we have [AlpineJS](https://alpinejs.dev/). This lightweight JavaScript library added interactivity and dynamism to our interface, making it come alive with smooth transitions and responsive elements. It was like a pinch of magic dust for our user experience.
+
+Together, Tailwind CSS and AlpineJS made a formidable team, helping us create a beautiful and functional interface that delights our users. We hope you enjoy using it!
+
+# The secret sauce of great code
+
+We take code standards seriously around here - so seriously, in fact, that we have a whole team of [Code Heroes](/docs/code-standards.md) dedicated to sniffing out bad code and helping it reach its full potential.
+
+Code is like a good book - it should always be easy to read, understand, and enjoy. Okay, maybe not exactly like a good book, but you get the idea. When code is easy to read, understand, and maintain, it makes the development process smoother and more efficient. Imagine trying to read a book that was written in a foreign language, with no punctuation, and with random words and letters scattered throughout. Not exactly a pleasant experience, right? The same goes for code - when it's messy and hard to follow, it can be frustrating and time-consuming to work with. That's why code should always be easy to read, understand, and maintain - it just makes life (and coding) better for everyone involved.

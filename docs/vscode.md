@@ -40,32 +40,26 @@ Here are my current `settings.json`:
 
 ```json
 {
-    "diffEditor.ignoreTrimWhitespace": false, // Will not ignore white spaces when comparing 2 versions of a file
-    "diffEditor.renderSideBySide": false, // See diff side by side
-    "editor.copyWithSyntaxHighlighting": false, // Copying code, won't take the formatting with it
-    "editor.emptySelectionClipboard": false, // Hitting ctrl/cmd+c won't copy the line if nothing is selected
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.emptySelectionClipboard": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top", // Place our snippets first when suggesting code
-    "editor.detectIndentation": false, // Pasting code won't try to infer indentation
-    "files.trimTrailingWhitespace": true, // Delete trailing white space
-    "files.trimFinalNewlines": true, // Delete trailing new lines
-    "files.insertFinalNewline": true, // Insert a new line at the end of every code file
-    "window.newWindowDimensions": "inherit", // Preserve the size of the window between reopens
-    "window.nativeFullScreen": true, // [macOs] optional if you don't like the native full screen that opens a separate workspace
-    "workbench.editor.enablePreview": false, // Don't open files in preview mode
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "window.newWindowDimensions": "inherit",
+    "window.nativeFullScreen": true,
+    "workbench.editor.enablePreview": false,
     "workbench.colorTheme": "Shades of Purple",
-    /**
-     * Show/Hide tools
-     */
     "workbench.activityBar.visible": true,
-    "workbench.sideBar.location": "right", // Code won't be moved by opening the sideBar
-    "workbench.statusBar.visible": true, // hide status bar
-    "workbench.editor.showTabs": true, // hide ident guides
-    "editor.minimap.enabled": false, // hide minimap
-    "editor.lineNumbers": "on", // hide line numbers
-    /**
-     * Turning off visual highlights
-     */
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.showTabs": true,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
     "breadcrumbs.enabled": false,
     "editor.colorDecorators": false,
     "editor.gotoLocation.multipleDefinitions": "goto",
@@ -88,68 +82,35 @@ Here are my current `settings.json`:
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.tips.enabled": false,
     "workbench.startupEditor": "none",
-    /**
-     * Typography
-     **/
     "editor.fontSize": 16,
     "editor.lineHeight": 45,
     "editor.suggestFontSize": 15,
     "editor.suggestLineHeight": 28,
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.lineHeight": 1.5,
-    /**
-     * Find
-     **/
     "search.useIgnoreFiles": false,
     "search.exclude": {
         "**/node_modules": true,
         "**/package-lock.json": true
     },
-    /**
-     * Code
-     **/
-    // Include "-" in word selection.
     "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-    /**
-     * Prettier
-     **/
     "prettier.requireConfig": true,
     "prettier.useEditorConfig": false,
-    /* Formatters */
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features",
-        "editor.formatOnSave": true
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.formatOnSave": true
-    },
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    /**
-     * Window Settings
-     **/
     "window.titleBarStyle": "native",
     "editor.guides.indentation": false,
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "cSpell.userWords": ["Camargo"],
+    "sync.gist": "72edac2f681bddc579ded8148aa58a35",
+    "html.format.indentInnerHtml": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
 }
 ```
 
 My `keybindings.json`:
 
 ```json
-// Place your key bindings in this file to override the defaults
 [
     /** panels */
     {

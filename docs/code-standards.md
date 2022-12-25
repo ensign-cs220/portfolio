@@ -1,4 +1,4 @@
-# The Secret Sauce of Great Code
+# The Code Heroes
 
 Welcome to the world of code heroes! In this section, we'll introduce you to three heroes who are dedicated to enforcing code standards and keeping your codebase in top form.
 
@@ -6,7 +6,9 @@ Meet [Husky Git Hooks](/docs/husky.md), the code enforcer! This handy tool works
 
 Next up is [ESLint](/docs/eslint.md), the code detective! This powerful linter helps to catch syntax errors and other issues before they become problems, ensuring that your code adheres to standards and best practices. With ESLint on your side, you can be confident that your code is always up to snuff.
 
-Last but not least is [Prettier](/docs/prettier.md), the code stylist! This handy tool helps to keep your code consistent and easy to read by automatically formatting it according to a set of predefined rules. Whether you're working on a solo project or collaborating with a team, Prettier has got your back.
+[Prettier](/docs/prettier.md) is the code stylist! This handy tool helps to keep your code consistent and easy to read by automatically formatting it according to a set of predefined rules. Whether you're working on a solo project or collaborating with a team, Prettier has got your back
+
+And finally, there's [EditorConfig](/docs/editorconfig.md), the code diplomat! This tool helps to ensure that your codebase has a consistent style and formatting, even when multiple developers are working on it. With EditorConfig on your side, you can say goodbye to style disagreements and hello to happy collaboration!
 
 Remember that investing in code standards is like investing in a good pair of socks for your feet - it might not seem like a big deal at first, but it can make a huge difference in the long run!
 

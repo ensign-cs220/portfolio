@@ -36,6 +36,12 @@ Next up, we have [AlpineJS](https://alpinejs.dev/). This lightweight JavaScript 
 
 Together, Tailwind CSS and AlpineJS made a formidable team, helping us create a beautiful and functional interface that delights our users. We hope you enjoy using it!
 
+# The Secret Sauce of Great Code
+
+We take code standards seriously around here - so seriously, in fact, that we have a whole team of [Code Heroes](/docs/code-standards.md) dedicated to sniffing out bad code and helping it reach its full potential.
+
+Code is like a good book - it should always be easy to read, understand, and enjoy. Okay, maybe not exactly like a good book, but you get the idea. When code is easy to read, understand, and maintain, it makes the development process smoother and more efficient. Imagine trying to read a book that was written in a foreign language, with no punctuation, and with random words and letters scattered throughout. Not exactly a pleasant experience, right? The same goes for code - when it's messy and hard to follow, it can be frustrating and time-consuming to work with. That's why code should always be easy to read, understand, and maintain - it just makes life (and coding) better for everyone involved.
+
 ### The Collaboration Contraption
 
 Attention, fellow developers! Are you ready to take your skills to the next level and join the ranks of the tech elite? Then you'll need to get yourself set up on some key platforms.

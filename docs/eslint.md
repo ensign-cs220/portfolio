@@ -154,8 +154,3 @@ module.exports = {
     },
 };
 ```
-
-## Resources
-
--   [ESLint](https://eslint.org/)
--   [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)

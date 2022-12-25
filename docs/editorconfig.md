@@ -1,6 +1,6 @@
 # EditorConfig
 
-EditorConfig is a file format and tool for defining and maintaining consistent coding styles between different editors and IDEs. There are several benefits to using EditorConfig:
+[EditorConfig](https://editorconfig.org/) is a file format and tool for defining and maintaining consistent coding styles between different editors and IDEs. There are several benefits to using EditorConfig:
 
 Consistency: EditorConfig helps to ensure that the coding style of a project is consistent across different editors and IDEs. This can be especially useful in large teams where different members may be using different tools.
 
@@ -28,7 +28,3 @@ end_of_line = lf
 [*.md]
 trim_trailing_whitespace = false
 ```
-
-## Resources
-
--   [EditorConfig](https://editorconfig.org/)

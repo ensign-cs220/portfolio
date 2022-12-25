@@ -5,7 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Daniel Teleginski Camargo</title>
         <link rel="stylesheet" href="dist/output.css" />
+        <script src="dist/output.js" defer></script>
     </head>
 
-    <body class="p-12"></body>
+    <body class="p-12 bg-red-500">
+        <div x-data="{ open: false }">
+            <button @click="open = true">Expand</button>
+            <span x-show="open"> Content... </span>
+        </div>
+    </body>
 </html>

@@ -94,3 +94,49 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 Then, log in to your GitHub account and go to the [Settings page](https://github.com/settings/profile). Under the [SSH and GPG keys section](https://github.com/settings/keys), click on the New SSH key button. In the Title field, enter a descriptive name for the key (e.g., "Personal MacBook"). In the Key field, paste the contents of your public key.
+
+# Commit Clarity
+
+Are you tired of struggling to make sense of your commit messages? [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) can help! This handy convention provides a standardized format for writing commit messages, which can make it easier to understand and track changes to your codebase. Plus, it's super easy to use and can help improve the readability and clarity of your commit messages. So why not give it a try and see how much easier it is to keep track of your code changes? With Conventional Commits, you'll be able to better understand your codebase and collaborate more effectively with your team. Give it a shot and see for yourself!
+
+Conventional Commits have their own special code words for different types of commits, and they can include any of these magic keywords:
+
+-   `build`: build: update build scripts for new dependency
+-   `ci`: ci: update CircleCI config with new pipeline
+-   `docs`: docs: update README with new instructions for installation
+-   `feat`: feat: add new feature for exporting data
+-   `fix`: fix: fix bug in login form
+-   `perf`: perf: optimize database queries for performance
+-   `refactor`: refactor: rewrite function for readability
+-   `style`: style: fix formatting in codebase
+-   `test`: test: add tests for new feature
+
+There are many short videos on YouTube that explain how to use Conventional Commits. Here are a few that you might find helpful:
+
+"Conventional Commits: A Beginner's Guide" by Fireship (https://www.youtube.com/watch?v=T1QEs3mdJoc) - This video provides a simple and easy-to-understand introduction to Conventional Commits. It covers the basic principles of Conventional Commits and provides examples of how to use them in practice.
+
+"Conventional Commits in 5 Minutes" by Traversy Media (https://www.youtube.com/watch?v=5U5LW-nN6zg) - This video provides a quick overview of Conventional Commits, including the syntax and structure of commit messages.
+
+"Conventional Commits: Tips and Tricks" by JavaScript Mastery (https://www.youtube.com/watch?v=kM8KvD-0Y9U) - This video provides more advanced tips and tricks for using Conventional Commits, including how to use them with tools like Semantic Release.
+
+I hope these videos are helpful in explaining how to use Conventional Commits! Let me know if you have any other questions.
+
+# The Code Shepherd
+
+[Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) is a workflow for managing branches in a Git repository. It provides a set of rules for how branches should be created, merged, and deleted, and is designed to help teams collaborate on codebase changes in a structured and organized way.
+
+Imagine you have a team of developers working on a codebase. They all need to make changes to the code, but they can't all work on the same branch at the same time, or they might accidentally overwrite each other's work. That's where Gitflow comes in!
+
+With Gitflow, each programmer gets their own branch to work on. When they're done making changes, they can send a "request" to merge their changes into the main branch (kind of like sending a package through the mail). But before the changes are actually merged, someone else has to "approve" the request and make sure everything looks good. This way, everyone's changes get reviewed before they're added to the main branch, which helps to prevent bugs and other issues.
+
+Gitflow is kind of like a traffic controller for code changes. It helps to keep everything organized and moving smoothly, so that everyone can work together without causing too many "traffic jams" or "accidents". It's a handy tool for teams who want to make sure their codebase stays in good shape!
+
+There are many short videos on YouTube that explain how Gitflow works. Here are a few that you might find helpful:
+
+"Gitflow Workflow" by Atlassian (https://www.youtube.com/watch?v=aJnFGMclhU8) - This video is a quick and easy-to-understand introduction to the Gitflow workflow. It covers the basic principles of Gitflow and provides a visual representation of how it works.
+
+"GitFlow explained" by Martin Führlinger (https://www.youtube.com/watch?v=xXiqLdH5BHM) - This video provides a more in-depth explanation of the Gitflow workflow, including how to set it up and use it in practice.
+
+"Gitflow Workflow: A Simple Explanation" by LearnCode.academy (https://www.youtube.com/watch?v=HVsySz-h9r4) - This video provides a simple and easy-to-understand explanation of the Gitflow workflow. It covers the basic principles of Gitflow and provides examples of how it can be used in practice.
+
+We hope these videos are helpful in explaining the Gitflow workflow! Let us know if you have any other questions.

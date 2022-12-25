@@ -1,6 +1,6 @@
 # The Code Heroes
 
-Welcome to the world of code heroes! In this section, we'll introduce you to three heroes who are dedicated to enforcing code standards and keeping your codebase in top form.
+Welcome to the world of code heroes! In this section, we'll introduce you to some player who are dedicated to enforcing code standards and keeping your codebase in top form.
 
 Meet [Husky Git Hooks](/docs/husky.md), the code enforcer! This handy tool works as a Git hook manager, running tasks before or after specific Git events to help keep your code clean and tidy. Whether it's linting code, running tests, or updating documentation, Husky for Git has got you covered.
 

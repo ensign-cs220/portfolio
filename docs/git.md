@@ -43,23 +43,12 @@ Once Git is installed, you will need to configure it with your name and email ad
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
+git config --global push.default simple
+git config --global init.defaultBranch main
+git config --global core.excludesfile ~/.gitignore
 ```
 
-## Creating a GitHub Account
-
-To create a GitHub account, follow these steps:
-
-1. Go to the GitHub website (https://github.com/).
-2. Click on the Sign up button in the top right corner of the page.
-3. Enter your email address, choose a username, and set a password.
-4. Click on the Continue button.
-5. Verify your email address by clicking on the link sent to you by GitHub.
-6. Once you have verified your email address, you can complete the sign-up process by filling out your profile information and choosing your plan.
-7. Click on the Finish sign up button to complete the process.
-
-That's it! You now have a GitHub account and are ready to start using the platform.
-
-### Using SSH for GitHub Authentication
+### Using SSH for GitHub authentication
 
 Using SSH for GitHub authentication is a secure and convenient way to access your repositories on the platform. With SSH, you can authenticate using a public-private key pair rather than a username and password, which is more secure and less prone to compromise. Additionally, SSH allows you to authenticate automatically without having to enter your credentials each time, which can be convenient when working with Git on the command line.
 

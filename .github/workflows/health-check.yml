@@ -17,8 +17,10 @@ jobs:
             - name: NPM Install
               run: npm ci
 
-            - name: ESLint
-              run: npm run lint
+            - name: Lint Code Base
+              uses: github/super-linter@v4
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Build CSS
               run: npm run build-css

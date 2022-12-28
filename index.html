@@ -9,7 +9,7 @@
     </head>
 
     <body class="p-12 bg-red-500">
-        <div x-data="{ open: false }">
+        <div x-data="{ open: false }" @click.away="open = false">
             <button @click="open = true">Expand</button>
             <span x-show="open"> Content... </span>
         </div>

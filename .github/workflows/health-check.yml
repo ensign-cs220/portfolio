@@ -16,17 +16,23 @@ jobs:
 
             - name: NPM Install
               run: npm ci
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-            - name: Lint Code Base
-              uses: github/super-linter@v4
+            - name: ESLint
+              run: npm run lint
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Build CSS
               run: npm run build-css
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Build JavaScript
               run: npm run build-js
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Discord Build Notification
               env:

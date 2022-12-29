@@ -10,7 +10,7 @@ on:
 jobs:
     run_if:
         # I will only care about PRs targeting develop and main branch
-        if: ${{ github.base_ref == 'main' ||  github.base_ref == 'develop' }}
+        if: ${{ github.base_ref == 'main' ||  github.base_ref == 'develop' || startsWith(github.base_ref, 'release/') }}
         runs-on: ubuntu-latest
         steps:
             - name: Checkout

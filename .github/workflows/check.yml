@@ -10,7 +10,7 @@ on:
 jobs:
     run_if:
         # I will only care about PRs targeting develop and main branch
-        if: ${{ github.base_ref == 'main' ||  github.base_ref == 'develop' || startsWith(github.base_ref, 'release/') }}
+        if: ${{ !github.event.pull_request.draft && (github.base_ref == 'main' ||  github.base_ref == 'develop' || startsWith(github.base_ref, 'release/')) }}
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -37,7 +37,7 @@ jobs:
               env:
                   DISCORD_AVATAR: ${{ github.event.pull_request.user.avatar_url }}
                   DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-              if: ${{ success() && !github.event.pull_request.draft }}
+              if: ${{ success() }}
               uses: Ilshidur/action-discord@0.3.2
               with:
                   args: '✅ Pull Request from [${{ github.actor }}](${{ github.event.pull_request.user.html_url }}) is ready for review: [${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }}).'

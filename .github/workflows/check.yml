@@ -28,8 +28,10 @@ jobs:
             - name: Build JavaScript
               run: npm run build-js
 
-            - uses: kceb/pull-request-url-action@v1
-              id: pr-url
+            - name: Dump GitHub context
+              env:
+                  GITHUB_CONTEXT: ${{ toJSON(github) }}
+              run: echo "$GITHUB_CONTEXT"
 
             - name: Discord Build Notification
               env:
@@ -37,4 +39,4 @@ jobs:
               if: ${{ success() }}
               uses: Ilshidur/action-discord@0.3.2
               with:
-                  args: '✅ Pull Request from ${{github.event.commits[0].author.name}}) is ready for review: ${{ steps.pr-url.outputs.url }}'
+                  args: '✅ Pull Request from ${{ github.event.pull_request.user.login}} is ready for review: '

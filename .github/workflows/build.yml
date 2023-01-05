@@ -23,6 +23,11 @@ jobs:
             - name: Build JavaScript
               run: npm run build-js
 
+            - name: Dump GitHub context
+              env:
+                  GITHUB_CONTEXT: ${{ toJSON(github) }}
+              run: echo "$GITHUB_CONTEXT"
+
             - name: Discord Build Notification
               env:
                   DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}

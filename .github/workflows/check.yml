@@ -37,7 +37,9 @@ jobs:
               env:
                   DISCORD_AVATAR: ${{ github.event.pull_request.user.avatar_url }}
                   DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+                  DISCORD_EMBEDS: '[{"title": ${{ github.event.pull_request.title }}}]'
               if: ${{ success() }}
               uses: Ilshidur/action-discord@0.3.2
               with:
-                  args: '✅ Pull Request from `${{ github.actor }}` is ready for review: [${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }}).'
+                  # [${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }})
+                  args: '✅ Pull Request from `${{ github.actor }}` is ready for review.'

@@ -4,13 +4,13 @@ on:
     pull_request:
         types:
             - opened
-            - edited
+            - synchronize
             - reopened
 
 jobs:
     run_if:
-        # I will only care about PRs targeting develop and main branch
-        if: ${{ github.base_ref == 'main' ||  github.base_ref == 'develop' || startsWith(github.base_ref, 'release/') }}
+        # I will only care about PRs targeting release, develop and main branch
+        if: ${{ !github.event.pull_request.draft && (github.base_ref == 'main' ||  github.base_ref == 'develop' || startsWith(github.base_ref, 'release/')) }}
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -27,3 +27,18 @@ jobs:
 
             - name: Build JavaScript
               run: npm run build-js
+
+            - name: Dump GitHub context
+              env:
+                  GITHUB_CONTEXT: ${{ toJSON(github) }}
+              run: echo "$GITHUB_CONTEXT"
+
+            - name: Discord Build Notification
+              env:
+                  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+                  DISCORD_EMBEDS: '[{"author": {"name": "${{ github.actor }}", "url": "${{ github.event.pull_request.user.html_url }}", "icon_url": "${{ github.event.pull_request.user.avatar_url }}"}, "title": "${{ github.event.pull_request.title }}", "url": "${{ github.event.pull_request.html_url }}", "description:": "Action: `${{ github.event.pull_request.action }}`"}]'
+              if: ${{ success() }}
+              uses: Ilshidur/action-discord@0.3.2
+              with:
+                  # [${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }})
+                  args: '💡 A Pull Request targeting branch `${{ github.base_ref }}` is ready for review.'

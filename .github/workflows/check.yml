@@ -41,4 +41,4 @@ jobs:
               uses: Ilshidur/action-discord@0.3.2
               with:
                   # [${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }})
-                  args: '✅ Pull Request from `${{ github.actor }}` is ready for review.'
+                  args: '✅ A Pull Request targeting branch `${{ github.base_ref }}` is ready for review.'

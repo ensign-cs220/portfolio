@@ -9,7 +9,7 @@ on:
 
 jobs:
     run_if:
-        # I will only care about PRs targeting develop and main branch
+        # I will only care about PRs targeting release, develop and main branch
         if: ${{ !github.event.pull_request.draft && (github.base_ref == 'main' ||  github.base_ref == 'develop' || startsWith(github.base_ref, 'release/')) }}
         runs-on: ubuntu-latest
         steps:

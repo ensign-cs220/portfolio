@@ -35,9 +35,8 @@ jobs:
 
             - name: Discord Build Notification
               env:
-                  DISCORD_AVATAR: ${{ github.event.pull_request.user.avatar_url }}
                   DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-                  DISCORD_EMBEDS: '[{"title": "${{ github.event.pull_request.title }}"}]'
+                  DISCORD_EMBEDS: '[{"author": {"name": "${{ github.actor }}", "url": "${{ github.event.pull_request.user.html_url }}", "icon_url": "${{ github.event.pull_request.user.avatar_url }}"}, "title": "${{ github.event.pull_request.title }}", "url": "${{ github.event.pull_request.html_url }}" }]'
               if: ${{ success() }}
               uses: Ilshidur/action-discord@0.3.2
               with:

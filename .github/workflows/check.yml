@@ -40,4 +40,4 @@ jobs:
               if: ${{ success() }}
               uses: Ilshidur/action-discord@0.3.2
               with:
-                  args: '✅ Pull Request from [${{ github.actor }}](${{ github.event.pull_request.user.html_url }}) is ready for review: [${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }}).'
+                  args: '✅ Pull Request from `${{ github.actor }}` is ready for review: [${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }}).'

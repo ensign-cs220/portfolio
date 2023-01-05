@@ -29,7 +29,7 @@ jobs:
               if: ${{ success() }}
               uses: Ilshidur/action-discord@0.3.2
               with:
-                  args: '✅ Successfully built `${{ github.repository }}` on ${{ github.ref_type }}: `${{ github.ref_name }}`'
+                  args: '✅ Successfully built `${{ github.repository }}` on ${{ github.ref_type }}: `${{ github.ref_name }}` (author: ${{github.event.commits[0].author.name}})'
 
             - name: Discord Build Failure Notification
               env:

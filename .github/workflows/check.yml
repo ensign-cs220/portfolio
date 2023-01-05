@@ -27,3 +27,14 @@ jobs:
 
             - name: Build JavaScript
               run: npm run build-js
+
+            - uses: kceb/pull-request-url-action@v1
+              id: pr-url
+
+            - name: Discord Build Notification
+              env:
+                  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+              if: ${{ success() }}
+              uses: Ilshidur/action-discord@0.3.2
+              with:
+                  args: '✅ Pull Request from ${{github.event.commits[0].author.name}}) is ready for review: ${{ steps.pr-url.outputs.url }}'

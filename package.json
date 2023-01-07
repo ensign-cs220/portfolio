@@ -1,13 +1,13 @@
 {
-    "name": "danielcamargo.github.io",
+    "name": "portfolio",
     "version": "1.0.0",
     "description": "My portfolio",
     "scripts": {
         "lint": "npx eslint ./",
         "format": "npx prettier --write .",
-        "watch": "npx tailwindcss -i ./app.css -o ./dist/output.css --watch",
-        "build-css": "npx tailwindcss -i ./app.css -o ./dist/output.css -m",
-        "build-js": "npx esbuild ./app.js --outfile=./dist/output.js --sourcemap --bundle --minify"
+        "watch": "npx tailwindcss -i ./src/app.css -o ./dist/output.css --watch",
+        "build-css": "npx tailwindcss -i ./src/app.css -o ./dist/output.css -m",
+        "build-js": "npx esbuild ./src/app.js --outfile=./dist/output.js --sourcemap --bundle --minify"
     },
     "repository": {
         "type": "git",

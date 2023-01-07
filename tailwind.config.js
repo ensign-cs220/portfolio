@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ['./*.{html,css,js}', './scripts/*.{html,css,js}'],
+    content: ['./src/**/*.{html,css,js}'],
     theme: {
         extend: {
             fontFamily: {

@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "My portfolio",
     "scripts": {
+        "prepare": "husky install",
         "lint": "npx eslint ./",
         "format": "npx prettier --write .",
         "watch": "npx tailwindcss -i ./src/app.css -o ./dist/output.css --watch",

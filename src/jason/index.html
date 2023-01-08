@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jason Chen</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../../dist/output.css" />
+        <script src="../../dist/output.js" defer></script>
+    </head>
+    <body>
+        <h1 class="text-indigo-500 bg-green-100 p-6">Hello Json</h1>
+        <div x-data="{ open: false }" @click.away="open = false">
+            <button @click="open = true">Expand</button>
+            <span x-show="open"> Content... </span>
+        </div>
+    </body>
+</html>

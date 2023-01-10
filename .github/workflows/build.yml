@@ -31,13 +31,13 @@ jobs:
               with:
                   label: color
                   status: cyan
-                  output: build/cyan.svg
+                  output: dist/cyan.svg
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./build
+                  publish_dir: ./dist
 
             - name: Dump GitHub context
               env:

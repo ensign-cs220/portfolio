@@ -1,6 +1,7 @@
 # Project cliff notes
 
 ![Build](https://github.com/ensign-cs220/portfolio/actions/workflows/build.yml/badge.svg)
+![Copy/Paste](https://raw.githubusercontent.com/ensign-cs220/portfolio/gh-pages/report/jscpd-badge.svg)
 
 As a software engineer, you are probably always working on exciting and challenging projects that showcase your skills and abilities. A portfolio page is a great way to showcase your work and highlight your achievements to potential employers, clients, and colleagues. It's a way to demonstrate your expertise and give people a glimpse into your technical capabilities. Plus, it's a great way to reflect on your past work and see how far you've come in your career. So don't be shy - go ahead and create a portfolio page and show the world what you can do!
 

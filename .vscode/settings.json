@@ -2,5 +2,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "html.format.indentInnerHtml": true,
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "cSpell.words": ["jaywcjlove", "peaceiris"]
 }

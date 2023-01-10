@@ -46,6 +46,9 @@ git config --global user.email "your@email.com"
 git config --global push.default simple
 git config --global init.defaultBranch main
 git config --global core.excludesfile ~/.gitignore
+# for windows users:
+git config --global core.autocrlf false
+git config --global core.eol lf
 ```
 
 ### Using SSH for GitHub authentication

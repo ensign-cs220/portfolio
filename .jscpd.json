@@ -1,0 +1,9 @@
+{
+    "threshold": 10,
+    "reporters": ["json", "console", "consoleFull", "badge"],
+    "ignore": ["node_modules", "dist"],
+    "paths": ["src"],
+    "format": ["html", "css", "markup", "javascript"],
+    "output": "dist/report",
+    "blame": true
+}

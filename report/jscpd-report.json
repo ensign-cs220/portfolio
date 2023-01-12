@@ -1,6 +1,6 @@
 {
   "statistics": {
-    "detectionDate": "2023-01-12T01:57:39.329Z",
+    "detectionDate": "2023-01-12T17:37:28.327Z",
     "formats": {
       "javascript": {
         "sources": {
@@ -255,45 +255,45 @@
         "blame": {
           "11": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "11",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "12": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "12",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "13": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "13",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "14": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "14",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "15": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "15",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "16": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "16",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "17": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "17",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           }
         }
       },
@@ -314,45 +314,45 @@
         "blame": {
           "11": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "11",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "12": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "12",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "13": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "13",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "14": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "14",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "15": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "15",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "16": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "16",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           },
           "17": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-11 18:56:59 -0700",
+            "date": "2023-01-12 10:36:47 -0700",
             "line": "17",
-            "rev": "^df71167"
+            "rev": "^51e4118"
           }
         }
       }

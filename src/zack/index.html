@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Zack</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../../dist/output.css" rel="stylesheet" />
+        <script src="../../dist/output.js" defer></script>
+        <script src="./Scripts/navbar.js"></script>
+    </head>
+    <body class="bg-slate-800">
+        <nav x-data="zacksNavbar()" class="block lg:hidden px-4 h-20 font-mono">
+            <div class="flex h-full justify-between items-center">
+                <span class="text-teal-400 text-lg">./zack</span>
+                <button class="text-slate-300" @click="open = !open">
+                    <svg
+                        x-show="!open"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-8 h-8"
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <svg
+                        x-show="open"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-8 h-8"
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <ul x-show="open" @click.away="open = false" class="absolute left-0 right-0">
+                <template x-for="e in entries">
+                    <li class="block w-full">
+                        <a class="block w-full text-slate-300 p-4 hover:bg-slate-900 hover:text-slate-200 active:text-slate-400" :href="e.link"
+                            ><span class="text-teal-400" x-html="e.prefix"></span><span x-html="e.label"></span
+                        ></a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+
+        <nav class="hidden lg:flex px-10 h-20 font-mono bg-slate-800 justify-between items-center">
+            <span class="text-teal-400 text-lg">./zack</span>
+            <ul x-data="zacksNavbar" class="flex text-sm space-x-8">
+                <template x-for="e in entries">
+                    <li>
+                        <a class="text-slate-300 hover:text-slate-200 active:text-slate-400" :href="e.link"
+                            ><span class="text-teal-400" x-html="e.prefix"></span><span x-html="e.label"></span
+                        ></a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+    </body>
+</html>

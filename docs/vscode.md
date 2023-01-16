@@ -39,7 +39,7 @@ If you're tired of typing out the same old code blocks over and over again, it's
 Here are my current `settings.json`:
 
 ```json
-{
+
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
     "editor.copyWithSyntaxHighlighting": false,
@@ -102,7 +102,8 @@ Here are my current `settings.json`:
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true
-}
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
 ```
 
 My `keybindings.json`:

@@ -5,7 +5,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Roboto'],
+                serif: ['Cormorant', 'serif'],
+                mono: ['Fira Code', 'mono'],
             },
         },
     },

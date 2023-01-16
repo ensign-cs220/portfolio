@@ -7,33 +7,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js"></script>
-        <script src="navBar.js"></script>
+        <script src="./navBar.js"></script>
     </head>
 
 
     <body>
-        <nav class="text-lg text-teal-400 bg-slate-800">
+        <nav x-data="navbar()" class="text-lg text-teal-400 bg-slate-800">
             <div class="container flex items-center justify-between px-6 py-3 mx-auto">
                 <div class="w-1/3">
                     <a href="#" class="font-mono text-lg hover:opacity-40">./izzyMansurov</a>
                 </div>
-                <div class="hidden w-2/3 md:flex md:items-center md:justify-end">
-                    <a href="#" class="px-2 font-mono hover:opacity-40 text-slate-300"><span
-                            class="text-teal-400">1.</span> home</a>
 
-                    <a href="#" class="px-2 font-mono hover:opacity-40 text-slate-300"><span
-                            class="text-teal-400">2.</span>
-                        about</a>
-                    <a href="#" class="px-2 font-mono hover:opacity-40 text-slate-300"><span
-                            class="text-teal-400">3.</span>
-                        skills</a>
-                    <a href="#" class="px-2 font-mono hover:opacity-40 text-slate-300"><span
-                            class="text-teal-400">4.</span>
-                        projects</a>
-                    <a href="#" class="px-2 font-mono hover:opacity-40 text-slate-300"><span
-                            class="text-teal-400">5.</span>
-                        contacts</a>
-                </div>
+                <template x-for="(entry,i) in entries">
+                    <li class="py-2">
+
+                        <a :href="entry.label" class="block text-lg font-medium">
+
+                            <span x-text="entry.label">
+                            </span> </a>
+                    </li>
+                </template>
+
                 <div class="md:hidden">
                     <button id="nav-toggle"
                         class="flex items-center px-3 py-2 border-blue-500 border-solid rounded-md md:hidden border-1 hover:opacity-40 text-slate-300">
@@ -64,24 +58,6 @@
                     contacts</a>
             </div>
         </div>
-
-
-        <script>
-            let navToggle = document.getElementById("nav-toggle");
-            let navMenu = document.getElementById("nav-menu");
-            let navMenuIcon = document.getElementById("menu-icon");
-            let navMenuIconSrc = "assets/icons/close.svg";
-
-            navToggle.addEventListener("click", () => {
-                navMenu.classList.toggle("hidden");
-                if (navMenuIconSrc === "assets/icons/menu.svg") {
-                    navMenuIconSrc = "assets/icons/close.svg";
-                } else {
-                    navMenuIconSrc = "assets/icons/menu.svg";
-                }
-                navMenuIcon.setAttribute("src", navMenuIconSrc);
-            });
-        </script>
     </body>
 
 </html>

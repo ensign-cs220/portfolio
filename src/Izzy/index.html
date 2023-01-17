@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <title>Izzy Mansurov</title>
         <meta charset="UTF-8" />
@@ -10,37 +9,39 @@
         <script src="./navBar.js"></script>
     </head>
 
-
     <body x-data="navbar()" class="bg-slate-800">
         <nav class="text-lg text-teal-400">
-            <div class="container flex items-center justify-between px-4 py-3 mx-auto lg:px-6">
+            <div class="container mx-auto flex items-center justify-between px-4 py-3 lg:px-6">
                 <div class="w-1/3">
-                    <a href="#" class="text-lg font-fira hover:opacity-40">./izzyMansurov</a>
+                    <a href="#" class="font-fira text-lg hover:opacity-40">./izzyMansurov</a>
                 </div>
                 <div class="hidden w-2/3 md:flex md:items-center md:justify-end">
                     <template x-for="item in entries">
-                        <ul class="hover:opacity-40 font-fira">
-                            <a :href="item.url" style="padding:1em;">
-                                <span x-text="item.id"></span>
+                        <ul class="font-mono hover:opacity-40">
+                            <a :href="item.url" style="padding: 1em">
+                                <span class="text-teal-400" x-text="'0'+item.id+'.'"></span>
                                 <span class="text-slate-200 hover:text-slate-300" x-text="item.label"></span>
                             </a>
                         </ul>
                     </template>
                 </div>
                 <div class="md:hidden">
-                    <button @click="isOpen = !isOpen"
-                        class="flex items-center px-3 py-2 rounded-md opacity-40 md:hidden border-1 hover:opacity-20 ">
-                        <img class="w-5 h-5 mr-2 border-collapse object-slate-400"
-                            :src="isOpen ? 'assets/icons/close.svg' : 'assets/icons/menu.svg'" alt="Menu button toggle">
+                    <button @click="isOpen = !isOpen" class="border-1 flex items-center rounded-md px-3 py-2 opacity-40 hover:opacity-20 md:hidden">
+                        <img
+                            class="object-slate-400 mr-2 h-5 w-5 border-collapse"
+                            :src="isOpen ? 'assets/icons/close.svg' : 'assets/icons/menu.svg'"
+                            alt="Menu button toggle"
+                        />
                     </button>
                 </div>
+            </div>
         </nav>
 
         <div class="md:hidden">
-            <div class="container py-3 mx-auto">
+            <div class="container mx-auto py-3">
                 <template x-for="item in entries">
                     <ul x-show="isOpen" class="font-mono hover:opacity-40">
-                        <a :href="item.url" style="padding:1em;">
+                        <a :href="item.url" style="padding: 1em">
                             <span class="text-teal-400" x-text="'0'+item.id+'.'"></span>
                             <span class="text-slate-400 hover:text-slate-300" x-text="item.label"></span>
                         </a>
@@ -48,6 +49,5 @@
                 </template>
             </div>
         </div>
-
-
+    </body>
 </html>

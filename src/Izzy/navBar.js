@@ -11,4 +11,3 @@ const navbar = function () {
     };
 };
 window.navbar = navbar;
-console.log(navbar().open);

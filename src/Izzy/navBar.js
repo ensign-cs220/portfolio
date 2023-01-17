@@ -1,14 +1,15 @@
 
 const navbar=function() {
     return {
-        open:false,
+        isOpen: true,
         entries: [
-            { label: 'Home', url: '#home' },
-            { label: 'About', url: '#about' },
-            { label: 'Skills', url: '#skills' },
-            { label: 'Projects', url: '#projects' },
-            { label: 'Contact', url: '#contact' },
+            { label:'home', url: '#home', id:1 },
+            { label:'about', url: '#about', id:2 },
+            { label:'skills', url: '#skills', id:3 },
+            { label:'projects', url: '#projects', id:4 },
+            { label:'contact', url: '#contact', id:5 },
         ],
     };
 }
 window.navbar = navbar;
+console.log(navbar().open);

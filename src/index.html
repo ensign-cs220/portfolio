@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CS220 - Portfolio</title>
+        <link rel="stylesheet" href="../dist/output.css" />
+        <script src="../dist/output.js" defer></script>
+    </head>
+
+    <body class="bg-red-400 p-12">
+        <div x-data="{ open: false }" @click.away="open = false">
+            <button @click="open = true">Expand</button>
+            <span x-show="open"> Content... </span>
+        </div>
+    </body>
+</html>

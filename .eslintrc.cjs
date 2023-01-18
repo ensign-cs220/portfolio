@@ -12,5 +12,9 @@ module.exports = {
     },
     rules: {
         'prettier/prettier': 'error',
+        'func-names': 'off',
+        'global-require': 'off',
+        'no-console': 'off',
+        'import/no-extraneous-dependencies': 'off',
     },
 };

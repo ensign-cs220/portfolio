@@ -1,0 +1,66 @@
+// Place your key bindings in this file to override the defaults
+[
+    /** panels */
+    { "key": "cmd+1", "command": "workbench.view.explorer" },
+    { "key": "cmd+2", "command": "workbench.view.scm" },
+    { "key": "cmd+3", "command": "workbench.view.debug" },
+    { "key": "cmd+4", "command": "workbench.extensions.action.showInstalledExtensions" },
+    { "key": "cmd+e", "command": "workbench.action.focusActiveEditorGroup" },
+    { "key": "cmd+t", "command": "workbench.action.terminal.toggleTerminal" },
+
+    /* File explorer */
+    {
+        "key": "cmd+d",
+        "command": "duplicate.execute",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    { "key": "cmd+n", "command": "explorer.newFile", "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus" },
+    { "key": "shift+cmd+n", "command": "explorer.newFolder", "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus" },
+
+    /* terminal split */
+    { "key": "ctrl+n", "command": "workbench.action.terminal.split", "when": "terminalFocus" },
+    { "key": "ctrl+w", "command": "workbench.action.terminal.kill", "when": "terminalFocus" },
+
+    /* line manipulation */
+    { "key": "cmd+l", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus" },
+    { "key": "cmd+j", "command": "editor.action.joinLines", "when": "editorTextFocus" },
+    { "key": "shift+cmd+[", "command": "editor.fold", "when": "editorFocus" },
+    { "key": "shift+cmd+]", "command": "editor.unfold", "when": "editorFocus" },
+
+    /* multi cursor */
+    { "key": "cmd+right", "command": "editor.action.insertCursorAtEndOfEachLineSelected", "when": "editorFocus && editorHasSelection" },
+    { "key": "ctrl+g", "command": "editor.action.addSelectionToNextFindMatch", "when": "editorFocus" },
+
+    /* Split Panels */
+    { "key": "ctrl+w", "command": "workbench.action.joinAllGroups", "when": "editorFocus" },
+    { "key": "ctrl+n", "command": "workbench.action.splitEditor", "when": "editorFocus" },
+    { "key": "ctrl+=", "command": "workbench.action.increaseViewSize", "when": "editorFocus" },
+    { "key": "ctrl+-", "command": "workbench.action.decreaseViewSize", "when": "editorFocus" },
+
+    /* Emmet */
+    { "key": "cmd+m cmd+m", "command": "editor.emmet.action.matchTag", "when": "editorTextFocus" },
+    { "key": "cmd+m cmd+e", "command": "editor.action.smartSelect.expand", "when": "editorTextFocus" },
+    { "key": "cmd+m cmd+r", "command": "editor.emmet.action.updateTag", "when": "editorTextFocus" },
+    { "key": "cmd+m cmd+backspace", "command": "editor.emmet.action.removeTag", "when": "editorTextFocus" },
+
+    /** IntelliSense **/
+    {
+        "key": "ctrl+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    { "key": "cmd+r", "command": "workbench.action.gotoSymbol" },
+    { "key": "cmd+shift+r", "command": "workbench.action.showAllSymbols" },
+    { "key": "cmd+k cmd+enter", "command": "editor.action.goToDeclaration", "when": "editorTextFocus" },
+
+    /* navigation */
+    { "key": "cmd+[", "command": "workbench.action.navigateBack", "when": "canNavigateBack" },
+    { "key": "cmd+]", "command": "workbench.action.navigateForward", "when": "canNavigateForward" },
+
+    /* Formatting */
+    {
+        "key": "alt+cmd+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    }
+]

@@ -3,8 +3,19 @@
     "html.format.indentInnerHtml": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "cSpell.words": ["alpinejs", "danielcamargo", "Furtado", "Ilshidur", "jaywcjlove", "Otavio", "peaceiris", "plusplus", "tailwindcss", "Waka"],
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    "cSpell.words": [
+        "alpinejs",
+        "commitlint",
+        "conventionalcommits",
+        "danielcamargo",
+        "esbuild",
+        "Fira",
+        "Ilshidur",
+        "jaywcjlove",
+        "outfile",
+        "peaceiris",
+        "tailwindcss",
+        "Waka",
+        "zacks"
+    ]
 }

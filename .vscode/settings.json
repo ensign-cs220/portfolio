@@ -3,5 +3,8 @@
     "html.format.indentInnerHtml": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "cSpell.words": ["alpinejs", "danielcamargo", "Ilshidur", "jaywcjlove", "peaceiris", "tailwindcss", "Waka"]
+    "cSpell.words": ["alpinejs", "danielcamargo", "Furtado", "Ilshidur", "jaywcjlove", "Otavio", "peaceiris", "plusplus", "tailwindcss", "Waka"],
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }

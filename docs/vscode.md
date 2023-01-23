@@ -35,6 +35,7 @@ Welcome to the world of VS Code Settings, where you can tweak, customize, and pe
 Keybindings, keybindings, everywhere! If you're feeling overwhelmed by all the different key combinations you can use in VS Code, don't worry - we've got you covered. Check out this helpful video tutorial to learn all about Keybindings and how to customize them to your liking: [25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI).
 
 If you're tired of typing out the same old code blocks over and over again, it's time to check out Snippets Files in VS Code. These handy little code snippets can save you a ton of time and effort, and they're easy to create and customize. Need a little help getting started? Check out this video tutorial: [How To Create Custom VSCode Snippets](https://www.youtube.com/watch?v=TGh2NpCIDlc).
+<<<<<<< HEAD
 
 Here are my current `settings.json`:
 
@@ -283,3 +284,7 @@ My `keybindings.json`:
     }
 ]
 ```
+
+=======
+
+> > > > > > > 53cbdb537b9c37d110fa8e962fc800d1bba7a6fe

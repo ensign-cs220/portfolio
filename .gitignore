@@ -13,4 +13,4 @@
 node_modules
 
 # Project specific
-/dist
+dist

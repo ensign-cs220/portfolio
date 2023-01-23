@@ -23,6 +23,23 @@ jobs:
             - name: Build JavaScript
               run: npm run build-js
 
+            - name: Detect duplication
+              run: ./node_modules/.bin/jscpd .
+
+            - name: Generate Badges
+              uses: jaywcjlove/generated-badges@main
+              with:
+                  label: color
+                  status: cyan
+                  output: dist/cyan.svg
+
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./dist
+                  publish_branch: stats
+
             - name: Dump GitHub context
               env:
                   GITHUB_CONTEXT: ${{ toJSON(github) }}

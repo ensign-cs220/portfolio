@@ -4,8 +4,11 @@
         <title>Tanner Lambert</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- tailwind -->
         <link href="../../dist/output.css" rel="stylesheet" />
-        <script src="../../dist/output.js"></script>
+        <!-- alpine.js -->
+        <script src="../../dist/output.js" defer></script>
+        <!-- my stuff -->
         <script src="navbar.js"></script>
     </head>
     <body>
@@ -42,7 +45,7 @@
                 <template x-for="(entry, i) in entries">
                     <li class="w-full">
                         <a
-                            x-bind:href="entry.Targetsection"
+                            x-bind:href="entry.targetSection"
                             class="block whitespace-nowrap p-4 text-slate-300 focus-within:bg-slate-900 hover:bg-slate-900 hover:text-slate-200 active:text-slate-400"
                         >
                             <span class="text-teal-400" x-text="'0' + (i + 1) + '. '">01.</span>

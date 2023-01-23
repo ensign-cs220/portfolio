@@ -3,11 +3,11 @@ const navbar = function () {
         open: false,
         entries: [
             { name: 'home', targetSection: '#home' },
-            { name: 'about', targetSectio: '#about' },
-            { name: 'skills', targetSectio: '#skills' },
-            { name: 'experience', targetSectio: '#experience' },
-            { name: 'projects', targetSectio: '#project' },
-            { name: 'contact', targetSectio: '#contact' },
+            { name: 'about', targetSection: '#about' },
+            { name: 'skills', targetSection: '#skills' },
+            { name: 'experience', targetSection: '#experience' },
+            { name: 'projects', targetSection: '#project' },
+            { name: 'contact', targetSection: '#contact' },
         ],
     };
 };

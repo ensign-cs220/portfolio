@@ -3,5 +3,19 @@
     "html.format.indentInnerHtml": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "cSpell.words": ["alpinejs", "danielcamargo", "Ilshidur", "jaywcjlove", "peaceiris", "tailwindcss", "Waka"]
+    "cSpell.words": [
+        "alpinejs",
+        "commitlint",
+        "conventionalcommits",
+        "danielcamargo",
+        "esbuild",
+        "Fira",
+        "Ilshidur",
+        "jaywcjlove",
+        "outfile",
+        "peaceiris",
+        "tailwindcss",
+        "Waka",
+        "zacks"
+    ]
 }

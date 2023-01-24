@@ -5,8 +5,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Roboto'],
-                cormorant: ['Cormorant'],
+                serif: ['Cormorant', 'serif'],
+                mono: ['Fira Code', 'mono'],
             },
         },
     },

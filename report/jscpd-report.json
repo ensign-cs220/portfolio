@@ -1,6 +1,6 @@
 {
   "statistics": {
-    "detectionDate": "2023-01-24T03:37:11.271Z",
+    "detectionDate": "2023-01-24T03:41:07.350Z",
     "formats": {
       "javascript": {
         "sources": {
@@ -168,11 +168,11 @@
             "lines": 63,
             "tokens": 600,
             "sources": 1,
-            "clones": 11,
-            "duplicatedLines": 88,
-            "duplicatedTokens": 880,
-            "percentage": 139.68,
-            "percentageTokens": 146.67,
+            "clones": 12,
+            "duplicatedLines": 95,
+            "duplicatedTokens": 965,
+            "percentage": 150.79,
+            "percentageTokens": 160.83,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
@@ -237,14 +237,14 @@
             "newClones": 0
           },
           "src/jason/index.html": {
-            "lines": 16,
-            "tokens": 180,
+            "lines": 35,
+            "tokens": 429,
             "sources": 1,
             "clones": 1,
-            "duplicatedLines": 6,
-            "duplicatedTokens": 63,
-            "percentage": 37.5,
-            "percentageTokens": 35,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 85,
+            "percentage": 20,
+            "percentageTokens": 19.81,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
@@ -300,24 +300,24 @@
             "lines": 16,
             "tokens": 172,
             "sources": 1,
-            "clones": 1,
-            "duplicatedLines": 6,
-            "duplicatedTokens": 63,
-            "percentage": 37.5,
-            "percentageTokens": 36.63,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
             "newDuplicatedLines": 0,
             "newClones": 0
           }
         },
         "total": {
-          "lines": 433,
-          "tokens": 4300,
+          "lines": 452,
+          "tokens": 4549,
           "sources": 12,
           "clones": 14,
-          "duplicatedLines": 113,
-          "duplicatedTokens": 1099,
-          "percentage": 26.1,
-          "percentageTokens": 25.56,
+          "duplicatedLines": 114,
+          "duplicatedTokens": 1121,
+          "percentage": 25.22,
+          "percentageTokens": 24.64,
           "newDuplicatedLines": 0,
           "newClones": 0
         }
@@ -352,14 +352,14 @@
       }
     },
     "total": {
-      "lines": 703,
-      "tokens": 6519,
+      "lines": 722,
+      "tokens": 6768,
       "sources": 25,
       "clones": 15,
-      "duplicatedLines": 121,
-      "duplicatedTokens": 1204,
-      "percentage": 17.21,
-      "percentageTokens": 18.47,
+      "duplicatedLines": 122,
+      "duplicatedTokens": 1226,
+      "percentage": 16.9,
+      "percentageTokens": 18.11,
       "newDuplicatedLines": 0,
       "newClones": 0
     }
@@ -387,57 +387,57 @@
         "blame": {
           "28": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "28",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "29": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "29",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "30": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "30",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "31": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "31",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "32": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "32",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "33": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "33",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "34": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "34",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "35": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "35",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "36": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "36",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -458,57 +458,57 @@
         "blame": {
           "17": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "17",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "18": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "18",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "19": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "19",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "20": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "20",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "21": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "21",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "22": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "22",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "23": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "23",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "24": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "24",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "25": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "25",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -535,51 +535,51 @@
         "blame": {
           "56": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "56",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "57": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "57",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "58": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "58",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "59": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "59",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "60": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "60",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "61": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "61",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "62": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "62",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "63": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "63",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -600,57 +600,57 @@
         "blame": {
           "43": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "43",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "44": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "44",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "45": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "45",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "46": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "46",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "47": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "47",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "48": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "48",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "49": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "49",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "50": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "50",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "51": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "51",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -677,39 +677,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -730,39 +730,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -789,57 +789,57 @@
         "blame": {
           "30": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "30",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "31": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "31",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "32": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "32",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "33": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "33",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "34": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "34",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "35": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "35",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "36": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "36",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "37": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "37",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "38": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "38",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -860,57 +860,57 @@
         "blame": {
           "19": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "19",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "20": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "20",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "21": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "21",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "22": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "22",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "23": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "23",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "24": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "24",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "25": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "25",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "26": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "26",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "27": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "27",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -937,57 +937,57 @@
         "blame": {
           "62": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "62",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "63": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "63",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "64": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "64",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "65": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "65",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "66": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "66",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "67": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "67",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "68": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "68",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "69": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "69",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "70": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "70",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -1008,57 +1008,57 @@
         "blame": {
           "48": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "48",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "49": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "49",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "50": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "50",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "51": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "51",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "52": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "52",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "53": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "53",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "54": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "54",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "55": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "55",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "56": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "56",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -1085,57 +1085,57 @@
         "blame": {
           "1": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "1",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "2": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "2",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "3": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "3",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -1156,57 +1156,57 @@
         "blame": {
           "1": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "1",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "2": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "2",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "3": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "3",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -1233,159 +1233,159 @@
         "blame": {
           "19": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "19",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "20": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "20",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "21": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "21",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "22": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "22",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "23": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "23",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "24": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "24",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "25": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "25",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "26": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "26",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "27": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "27",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "28": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "28",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "29": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "29",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "30": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "30",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "31": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "31",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "32": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "32",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "33": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "33",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "34": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "34",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "35": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "35",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "36": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "36",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "37": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "37",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "38": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "38",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "39": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "39",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "40": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "40",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "41": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "41",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "42": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "42",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "43": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "43",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "44": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "44",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -1406,159 +1406,159 @@
         "blame": {
           "15": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "15",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "16": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "16",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "17": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "17",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "18": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "18",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "19": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "19",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "20": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "20",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "21": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "21",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "22": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "22",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "23": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "23",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "24": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "24",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "25": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "25",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "26": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "26",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "27": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "27",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "28": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "28",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "29": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "29",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "30": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "30",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "31": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "31",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "32": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "32",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "33": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "33",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "34": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "34",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "35": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "35",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "36": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "36",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "37": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "37",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "38": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "38",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "39": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "39",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "40": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "40",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -1585,63 +1585,63 @@
         "blame": {
           "39": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "39",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "40": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "40",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "41": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "41",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "42": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "42",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "43": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "43",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "44": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "44",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "45": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "45",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "46": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "46",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "47": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "47",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "48": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "48",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -1662,63 +1662,63 @@
         "blame": {
           "37": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "37",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "38": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "38",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "39": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "39",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "40": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "40",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "41": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "41",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "42": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "42",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "43": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "43",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "44": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "44",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "45": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "45",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "46": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "46",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -1745,63 +1745,63 @@
         "blame": {
           "64": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "64",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "65": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "65",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "66": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "66",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "67": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "67",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "68": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "68",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "69": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "69",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "70": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "70",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "71": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "71",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "72": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "72",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "73": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "73",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -1822,57 +1822,57 @@
         "blame": {
           "50": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "50",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "51": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "51",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "52": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "52",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "53": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "53",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "54": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "54",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "55": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "55",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "56": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "56",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "57": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "57",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "58": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "58",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -1899,57 +1899,57 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "10": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "10",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "11": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "11",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "12": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "12",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -1970,57 +1970,57 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "10": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "10",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "11": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "11",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "12": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "12",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -2047,39 +2047,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -2100,39 +2100,175 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
+          }
+        }
+      }
+    },
+    {
+      "format": "markup",
+      "lines": 8,
+      "fragment": "</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n        <link href=\"../../dist/output.css\" rel=\"stylesheet\" />\n        <script src=\"../../dist/output.js\" defer></script>\n    </head>\n    <body>\n        <nav class=\"flex h-20 items-center justify-between bg-slate-800 px-10",
+      "tokens": 0,
+      "firstFile": {
+        "name": "src/jason/index.html",
+        "start": 4,
+        "end": 11,
+        "startLoc": {
+          "line": 4,
+          "column": 5,
+          "position": 24
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 58,
+          "position": 109
+        },
+        "blame": {
+          "4": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "4",
+            "rev": "^5af0d4c"
+          },
+          "5": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "5",
+            "rev": "^5af0d4c"
+          },
+          "6": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "6",
+            "rev": "^5af0d4c"
+          },
+          "7": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "7",
+            "rev": "^5af0d4c"
+          },
+          "8": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "8",
+            "rev": "^5af0d4c"
+          },
+          "9": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "9",
+            "rev": "^5af0d4c"
+          },
+          "10": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "10",
+            "rev": "^5af0d4c"
+          },
+          "11": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "11",
+            "rev": "^5af0d4c"
+          }
+        }
+      },
+      "secondFile": {
+        "name": "src/zack/index.html",
+        "start": 4,
+        "end": 11,
+        "startLoc": {
+          "line": 4,
+          "column": 5,
+          "position": 22
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 68,
+          "position": 107
+        },
+        "blame": {
+          "4": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "4",
+            "rev": "^5af0d4c"
+          },
+          "5": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "5",
+            "rev": "^5af0d4c"
+          },
+          "6": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "6",
+            "rev": "^5af0d4c"
+          },
+          "7": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "7",
+            "rev": "^5af0d4c"
+          },
+          "8": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "8",
+            "rev": "^5af0d4c"
+          },
+          "9": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "9",
+            "rev": "^5af0d4c"
+          },
+          "10": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "10",
+            "rev": "^5af0d4c"
+          },
+          "11": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-01-23 20:40:36 -0700",
+            "line": "11",
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -2159,39 +2295,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -2212,39 +2348,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -2271,39 +2407,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -2324,39 +2460,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }
@@ -2383,39 +2519,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       },
@@ -2436,163 +2572,39 @@
         "blame": {
           "4": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "4",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "5": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "5",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "6": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "6",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "7": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "7",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "8": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "8",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           },
           "9": {
             "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
+            "date": "2023-01-23 20:40:36 -0700",
             "line": "9",
-            "rev": "^ce7177a"
-          }
-        }
-      }
-    },
-    {
-      "format": "markup",
-      "lines": 7,
-      "fragment": ">\n        <div x-data=\"{ open: false }\" @click.away=\"open = false\">\n            <button @click=\"open = true\">Expand</button>\n            <span x-show=\"open\"> Content... </span>\n        </div>\n    </body>\n</html>",
-      "tokens": 0,
-      "firstFile": {
-        "name": "src/index.html",
-        "start": 11,
-        "end": 17,
-        "startLoc": {
-          "line": 11,
-          "column": 2,
-          "position": 109
-        },
-        "endLoc": {
-          "line": 17,
-          "column": 2,
-          "position": 172
-        },
-        "blame": {
-          "11": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "11",
-            "rev": "^ce7177a"
-          },
-          "12": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "12",
-            "rev": "^ce7177a"
-          },
-          "13": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "13",
-            "rev": "^ce7177a"
-          },
-          "14": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "14",
-            "rev": "^ce7177a"
-          },
-          "15": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "15",
-            "rev": "^ce7177a"
-          },
-          "16": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "16",
-            "rev": "^ce7177a"
-          },
-          "17": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "17",
-            "rev": "^ce7177a"
-          }
-        }
-      },
-      "secondFile": {
-        "name": "src/jason/index.html",
-        "start": 11,
-        "end": 17,
-        "startLoc": {
-          "line": 11,
-          "column": 3,
-          "position": 117
-        },
-        "endLoc": {
-          "line": 17,
-          "column": 2,
-          "position": 180
-        },
-        "blame": {
-          "11": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "11",
-            "rev": "^ce7177a"
-          },
-          "12": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "12",
-            "rev": "^ce7177a"
-          },
-          "13": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "13",
-            "rev": "^ce7177a"
-          },
-          "14": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "14",
-            "rev": "^ce7177a"
-          },
-          "15": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "15",
-            "rev": "^ce7177a"
-          },
-          "16": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "16",
-            "rev": "^ce7177a"
-          },
-          "17": {
-            "author": "Daniel Teleginski Camargo",
-            "date": "2023-01-23 20:36:37 -0700",
-            "line": "17",
-            "rev": "^ce7177a"
+            "rev": "^5af0d4c"
           }
         }
       }

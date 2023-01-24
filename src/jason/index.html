@@ -4,14 +4,33 @@
         <title>Jason Chen</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="../../dist/output.css" />
+        <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js" defer></script>
     </head>
     <body>
-        <h1 class="bg-green-100 p-6 text-indigo-500">Hello Json</h1>
-        <div x-data="{ open: false }" @click.away="open = false">
-            <button @click="open = true">Expand</button>
-            <span x-show="open"> Content... </span>
-        </div>
+        <nav class="flex h-20 items-center justify-between bg-slate-800 px-10">
+            <span class="font-mono text-2xl font-normal text-teal-400">./Jason Chen</span>
+            <ul class="flex space-x-8 text-sm font-normal">
+                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
+                    <a href="#"><span class="text-teal-500">01. </span>Home</a>
+                </li>
+
+                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
+                    <a href="#"><span class="text-teal-500">02. </span>About</a>
+                </li>
+                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
+                    <a href="#"><span class="text-teal-500">03. </span>Skills</a>
+                </li>
+                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
+                    <a href="#"><span class="text-teal-500">04. </span>Experience</a>
+                </li>
+                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
+                    <a href="#"><span class="text-teal-500">05. </span>Project</a>
+                </li>
+                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
+                    <a href="#"><span class="text-teal-500">06. </span>Contact</a>
+                </li>
+            </ul>
+        </nav>
     </body>
 </html>

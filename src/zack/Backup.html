@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Zack</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../../dist/output.css" rel="stylesheet" />
+        <script src="../../dist/output.js" defer></script>
+        <script src="./Scripts/navbar.js"></script>
+    </head>
+    <body class="bg-slate-800">
+        <nav x-data="zacksNavbar()" class="block lg:hidden px-4 h-20 font-mono">
+            <div class="flex h-full justify-between items-center">
+                <span class="text-teal-400 text-lg">./zack</span>
+                <button class="text-slate-300" @click="open = !open">
+                    <svg
+                        x-show="!open"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-8 h-8"
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <svg
+                        x-show="open"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-8 h-8"
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+                <div class="bg-[url('src\zack\Images\Full body 1.jpg')]"></div>
+            </div>
+            <ul x-show="open" @click.away="open = false" class="absolute left-0 right-0">
+                <template x-for="e in entries">
+                    <li class="block w-full">
+                        <a class="block w-full text-slate-300 p-4 hover:bg-slate-900 hover:text-slate-200 active:text-slate-400" :href="e.link"
+                            ><span class="text-teal-400" x-html="e.prefix"></span><span x-html="e.label"></span
+                        ></a>
+                    </li>
+                </template>
+            </ul>
+            <img src="Images\Full body 1.jpg" class="max-w-full h-auto" alt="..." />
+        </nav>
+
+        <nav class="hidden lg:flex px-10 h-20 font-mono bg-slate-800 justify-between items-center">
+            <span class="text-teal-400 text-lg">./zack</span>
+            <ul x-data="zacksNavbar" class="flex text-sm space-x-8">
+                <template x-for="e in entries">
+                    <li>
+                        <a class="text-slate-300 hover:text-slate-200 active:text-slate-400" :href="e.link"
+                            ><span class="text-teal-400" x-html="e.prefix"></span><span x-html="e.label"></span
+                        ></a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+        <div class="hidden lg:flex">
+            <div class="flex justify-between gap-10 columns-2">
+                <div class="static left-0 ml-8 mt-16 max-w-xl">
+                    <div class="text-teal-400 text-base mb-5">Hey, my name is</div>
+                    <div class="text-white text-6xl font-serif mb-5">Zackary Edstrom</div>
+                    <div class="text-white text-xl relative bottom-0 left-0">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aspernatur porro, pariatur repellendus expedita deleniti
+                        consequuntur beatae omnis nemo. Tempore eveniet earum exercitationem repudiandae, ea itaque accusantium veniam eum distinctio.
+                    </div>
+
+                    <div class="justify-between">
+                        <div class="static box-border rounded w-64 border-2 border-teal-400 text-teal-400 text-base p-4 pl-4 mt-14 columns-2">
+                            <div class="relative left-2 h-auto w-48">
+                                Download my resume
+                                <div class="relative left-9 w-4 h-auto">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1 14.5V16.75C1 17.3467 1.23705 17.919 1.65901 18.341C2.08097 18.7629 2.65326 19 3.25 19H16.75C17.3467 19 17.919 18.7629 18.341 18.341C18.7629 17.919 19 17.3467 19 16.75V14.5M14.5 10L10 14.5M10 14.5L5.5 10M10 14.5V1"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="static right-0 top-0">
+                    <div><img class="w-80 absolute right-0 mr-8 h-auto" src="Images\Full body 1.jpg" alt="..." /></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -6,6 +6,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Roboto'],
+                cormorant: ['Cormorant'],
             },
         },
     },

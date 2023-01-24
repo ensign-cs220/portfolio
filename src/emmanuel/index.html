@@ -4,9 +4,23 @@
         <title>Emmanuel</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="css/style.css" rel="stylesheet" />
+        <link href="../../dist/output.css" rel="stylesheet" />
+        <script src="../../dist/output.js" defer></script>
+        <script src="js/navbar.js"></script>
     </head>
     <body>
-        Hello World 2
+        <nav class="px-10 h-20 font-mono bg-slate-800 flex justify-between items-center">
+            <span class="text-teal-400 text-lg">./emmanuel</span>
+            <ul x-data="window.$emmanuelNavbar" class="flex text-sm space-x-8">
+                <template x-for="(entry, index) in menuEntries">
+                    <li>
+                        <a class="text-slate-300 hover:text-slate-200 active:text-slate-400" :href="entry.href">
+                            <span class="text-teal-400" x-text="(index + 1) + '. '"></span>
+                            <span x-text="entry.name"></span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
     </body>
 </html>

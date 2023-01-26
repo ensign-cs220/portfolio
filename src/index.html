@@ -8,7 +8,7 @@
         <script src="../dist/output.js" defer></script>
     </head>
 
-    <body class="p-12 bg-red-400">
+    <body class="bg-red-400 p-12">
         <div x-data="{ open: false }" @click.away="open = false">
             <button @click="open = true">Expand</button>
             <span x-show="open"> Content... </span>

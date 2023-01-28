@@ -4,19 +4,200 @@
         <title>Daniel Camargo</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- tailwind -->
         <link href="../../dist/output.css" rel="stylesheet" />
+        <!-- alpine.js -->
         <script src="../../dist/output.js" defer></script>
-        <script src="components.js" defer></script>
+        <!-- my stuff -->
+        <script src="components.js"></script>
     </head>
-    <body>
-        <nav class="flex h-20 items-center justify-between bg-slate-800 px-10 font-mono">
-            <span class="text-lg text-teal-400">./danielcamargo</span>
-            <ul class="flex space-x-8 text-sm">
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">1. </span>Home</a>
-                </li>
-                <li class="text-slate-300"><span class="text-teal-400">2. </span>About</li>
-            </ul>
+
+    <body class="font-mono">
+        <!-- Navbar-->
+        <nav x-data="$navbar">
+            <!-- Mobile Navbar -->
+            <div class="h-20 items-center bg-slate-800 px-4 lg:hidden">
+                <div class="flex h-full items-center justify-between">
+                    <span class="text-lg text-teal-400">./danielcamargo</span>
+                    <button @click="open = !open" class="text-slate-300">
+                        <svg
+                            x-show="!open"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-8 w-8"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg
+                            x-show="open"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-8 w-8"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <ul x-show="open" class="absolute right-0 left-0 bg-slate-800 text-sm">
+                    <template x-for="(entry, i) in entries">
+                        <li class="w-full">
+                            <a
+                                x-bind:href="entry.targetSection"
+                                class="block whitespace-nowrap p-4 text-slate-300 focus-within:bg-slate-900 hover:bg-slate-900 hover:text-slate-200 active:text-slate-400"
+                            >
+                                <span class="text-teal-400" x-text="'0' + (i + 1) + '. '">01.</span>
+                                <span x-text="entry.name"></span>
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <!---desktop navbar-->
+            <div class="hidden h-20 items-center justify-between bg-slate-800 px-10 lg:flex">
+                <span class="text-lg text-teal-400">./danielcamargo</span>
+                <ul class="flex space-x-8 text-sm">
+                    <template x-for="(entry, i) in entries">
+                        <li>
+                            <a x-bind:href="entry.Targetsection" class="whitespace-nowrap text-slate-300 hover:text-slate-200 active:text-slate-400">
+                                <span class="text-teal-400" x-text="'0' + (i + 1) + '. '">01.</span>
+                                <span x-text="entry.name"></span>
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
         </nav>
+        <!-- Home -->
+        <section
+            id="home"
+            x-data="$home"
+            x-init="setup($refs)"
+            class="flex flex-col-reverse items-center bg-slate-800 py-4 px-5 md:flex-row md:justify-between lg:p-10"
+        >
+            <!--Box with intro -->
+            <div class="flex flex-1 flex-col items-center justify-start space-y-5 py-5 md:items-start md:justify-start md:py-0">
+                <span x-ref="a" class="text-base text-teal-400">Hey, my name is</span>
+                <h1 class="font-serif text-4xl text-slate-300 lg:text-6xl">Daniel Camargo</h1>
+                <p class="max-w-sm pb-5 text-center text-base text-slate-300 md:max-w-none md:text-left lg:text-lg">
+                    I'm a software engineer from Outvergent specialized in building Web & IOS App. I also love designing them to create vibrant UI
+                    experiences. In the past few month I focused on personal project to upgrade my skills and be more efficient.
+                </p>
+                <!-- download my resume -->
+                <div>
+                    <a
+                        href="resume.pdf"
+                        target="_blank"
+                        class="inline-flex items-center gap-3 whitespace-nowrap rounded border border-teal-400 px-8 py-4 text-sm text-teal-400 hover:border-teal-300 hover:bg-slate-700 hover:text-teal-300 focus:border-teal-300 focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-300 focus:ring-offset-2 focus:ring-offset-slate-800 active:border-teal-500 active:text-teal-500"
+                    >
+                        Download my resume
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-[0.875rem] w-[0.875rem]"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <button
+                        @click="play()"
+                        class="group inline-flex items-center justify-center gap-5 pt-5 text-slate-400 hover:text-slate-300 focus:outline-none"
+                    >
+                        <span
+                            class="inline-flex h-20 w-20 items-center justify-center rounded-full border border-slate-400 p-3 group-hover:border-slate-300 group-focus:border-teal-300 group-focus:text-teal-300 group-focus:ring-2 group-focus:ring-teal-300 group-focus:ring-offset-2 group-focus:ring-offset-slate-800"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-8 w-8"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                />
+                            </svg>
+                        </span>
+                        <span class="text-sm">Watch video</span>
+                    </button>
+                </div>
+                <!-- modal -->
+                <!-- See x-teleport: https://alpinejs.dev/directives/teleport -->
+                <template x-teleport="body">
+                    <div
+                        x-show="showVideo"
+                        @keydown.window.escape="hide()"
+                        class="relative z-10"
+                        aria-labelledby="modal-title"
+                        x-ref="dialog"
+                        aria-modal="true"
+                    >
+                        <!-- the overlay -->
+                        <div
+                            x-show="showVideo"
+                            x-transition:enter="ease-out duration-300"
+                            x-transition:enter-start="opacity-0"
+                            x-transition:enter-end="opacity-100"
+                            x-transition:leave="ease-in duration-200"
+                            x-transition:leave-start="opacity-100"
+                            x-transition:leave-end="opacity-0"
+                            class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+                        ></div>
+                        <!-- the video-->
+                        <div class="fixed inset-0 z-10 overflow-y-auto">
+                            <div class="flex min-h-full items-center justify-center p-4 sm:p-0">
+                                <div
+                                    x-show="showVideo"
+                                    @click.away="hide()"
+                                    x-transition:enter="ease-out duration-300"
+                                    x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                                    x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+                                    x-transition:leave="ease-in duration-200"
+                                    x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+                                    x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                                    class="relative w-full max-w-lg transform overflow-hidden rounded-lg bg-transparent text-left shadow-xl transition-all md:my-8"
+                                >
+                                    <div class="relative">
+                                        <iframe
+                                            x-ref="youtubeEmbeddedVideo"
+                                            class="aspect-video w-full"
+                                            src="https://www.youtube.com/embed/znXtGyWD8hQ?enablejsapi=1"
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                        ></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <!-- end modal -->
+            </div>
+            <!--Box with image -->
+            <div class="flex flex-1 justify-end">
+                <div class="w-[25rem] max-w-xs md:h-[33rem] lg:max-w-none">
+                    <img src="me.png" class="object-cover" alt="My Picture" />
+                </div>
+            </div>
+        </section>
     </body>
 </html>

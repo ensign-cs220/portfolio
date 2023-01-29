@@ -4,32 +4,123 @@
         <title>Miriam</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://cdn.tailwindcss.com"></script>
         <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js" defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </head>
-    <body>
-        <nav class="px-10 h-20 font-mono bg-slate-800 flex justify-between items-center">
-            <span class="text-teal-400 text-lg">./danielcamargo</span>
-            <ul class="flex text-sm space-x-8">
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">01. </span>home</a>
+    <body class="bg-gray-800">
+        <!--nav-->
+        <nav class="font-mono text-indigo-400 p-5 shadow md:flex md:items-center md:justify-between">
+            <div class="flex justify-between items-center">
+                <div>./miriamburton</div>
+
+                <span class="text-slate-300 hover:text-slate-200 active:text-slate-400 mx-2 cursor-pointer block md:hidden">
+                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                </span>
+            </div>
+
+            <ul
+                class="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+            >
+                <li class="mx-4">
+                    <a href="#">01. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">home</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">02. </span>about</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">02. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">about</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">03. </span>skills</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">03. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">skills</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">04. </span>experience</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">04. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">experience</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">05. </span>projects</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">05. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">projects</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">06. </span>contact</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">06. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">contact</span></a>
                 </li>
             </ul>
         </nav>
+
+        <!--home-->
+        <div class="flex flex-col p-4 md:flex-row-reverse md:justify-between">
+            <div class="flex justify-center">
+                <img src="" alt="image to be inserted here!" />
+            </div>
+            <div class="flex-col text-slate-300 font-serif px-10 text-center lg:text-left">
+                <h2 class="text-indigo-400 font-mono my-4">Hey, my name is</h2>
+                <h1 class="text-4xl my-2">Miriam Burton</h1>
+                <h2 class="my-4">I'm a software engineering student at Ensign college and I love to code!</h2>
+                <div class="text-center">
+                    <button
+                        class="flex w-full justify-center text-indigo-400 border border-indigo-400 px-8 py-4 rounded font-mono md:justify-start md:w-fit"
+                    >
+                        <span class="mx-4">Download my resume</span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="w-6 h-6"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                            />
+                        </svg>
+                    </button>
+                </div>
+                <div class="justify-center flex flex-row md:justify-start">
+                    <button class="py-4 text-slate-400 text-lg text-center items-center flex flex-row md:justify-start">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="w-20 h-20"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
+                            />
+                        </svg>
+                        <span class="m-4">Watch video</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--about-->
+        <div class="text-slate-300 font-serif px-10 lg:text-left">
+            <div class="text-lg py-10 md:px-8"><span class="text-indigo-400 font-mono">02 </span>About</div>
+            <div class="flex flex-col md:flex-row-reverse">
+                <div class="flex h-96 w-full mb-8 bg-indigo-400"></div>
+                <div class="hidden w-full md:flex"></div>
+                <div>
+                    lottsa interesting facts go here! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+        </div>
     </body>
+
+    <!--script for nav menu button-->
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+            e.name === 'menu'
+                ? ((e.name = 'close'), list.classList.add('top-[80px]'), list.classList.add('opacity-100'))
+                : ((e.name = 'menu'), list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'));
+        }
+    </script>
 </html>

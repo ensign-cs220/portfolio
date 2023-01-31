@@ -8,3 +8,6 @@
 [x-cloak] {
     display: none !important;
 }
+
+@layer utilities {
+}

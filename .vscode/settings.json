@@ -3,6 +3,7 @@
     "html.format.indentInnerHtml": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "files.eol": "\n",
     "cSpell.words": [
         "alpinejs",
         "commitlint",
@@ -14,6 +15,7 @@
         "jaywcjlove",
         "outfile",
         "peaceiris",
+        "plusplus",
         "tailwindcss",
         "Waka",
         "zacks"

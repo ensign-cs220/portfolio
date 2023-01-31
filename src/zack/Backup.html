@@ -8,7 +8,8 @@
         <script src="../../dist/output.js" defer></script>
         <script src="./Scripts/navbar.js"></script>
     </head>
-    <body class="bg-slate-800">
+    <!-- class="bg-slate-800" -- -->
+    <body>
         <nav x-data="zacksNavbar()" class="block h-20 px-4 font-mono lg:hidden">
             <div class="flex h-full items-center justify-between">
                 <span class="text-lg text-teal-400">./zack</span>
@@ -62,38 +63,57 @@
                 </template>
             </ul>
         </nav>
-        <div class="hidden lg:flex">
-            <div class="flex columns-2 justify-between gap-10">
-                <div class="static left-0 ml-8 mt-16 max-w-xl">
-                    <div class="mb-5 text-base text-teal-400">Hey, my name is</div>
-                    <div class="mb-5 font-serif text-6xl text-white">Zackary Edstrom</div>
-                    <div class="relative bottom-0 left-0 text-xl text-white">
+        <div class="hidden bg-red-500 p-8 lg:flex">
+            <div class="flex w-full columns-2 gap-10 bg-purple-500">
+                <div class="w-1/2 bg-slate-600 pt-7">
+                    <div class="bg-black text-base text-teal-400">Hey, my name is</div>
+                    <div class="my-5 bg-slate-50 font-serif text-6xl text-white">Zackary Edstrom</div>
+                    <div class="my-5 bg-blue-50 text-xl text-white">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aspernatur porro, pariatur repellendus expedita deleniti
                         consequuntur beatae omnis nemo. Tempore eveniet earum exercitationem repudiandae, ea itaque accusantium veniam eum distinctio.
                     </div>
 
-                    <div class="justify-between">
-                        <div class="static mt-14 box-border w-64 columns-2 rounded border-2 border-teal-400 p-4 pl-4 text-base text-teal-400">
-                            <div class="relative left-2 h-auto w-48">
-                                Download my resume
-                                <div class="relative left-9 h-auto w-4">
-                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="my-6 bg-pink-500">
+                        <div class="mt-10 box-border flex w-fit rounded border-2 border-teal-400 bg-white p-4 px-8 pt-4 pl-4 text-base text-teal-400">
+                            <div class="h-5 min-w-max bg-red-600">Download my resume</div>
+                            <div class="relative left-3 w-5 bg-green-600">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 14.5V16.75C1 17.3467 1.23705 17.919 1.65901 18.341C2.08097 18.7629 2.65326 19 3.25 19H16.75C17.3467 19 17.919 18.7629 18.341 18.341C18.7629 17.919 19 17.3467 19 16.75V14.5M14.5 10L10 14.5M10 14.5L5.5 10M10 14.5V1"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-32 w-full bg-yellow-500">
+                        <div class="flex">
+                            <div class="h-32 w-32 rounded-full border-2 border-slate-400 bg-red-400 p-14">
+                                <div class="">
+                                    <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                            d="M1 14.5V16.75C1 17.3467 1.23705 17.919 1.65901 18.341C2.08097 18.7629 2.65326 19 3.25 19H16.75C17.3467 19 17.919 18.7629 18.341 18.341C18.7629 17.919 19 17.3467 19 16.75V14.5M14.5 10L10 14.5M10 14.5L5.5 10M10 14.5V1"
-                                            stroke="currentColor"
-                                            stroke-width="1.5"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M0 2.53731C0 0.635975 2.03867 -0.569358 3.70533 0.346642L19.092 8.81064C20.8187 9.75997 20.8187 12.2413 19.092 13.1906L3.70667 21.6546C2.04 22.5706 0.00133324 21.3653 0.00133324 19.464V2.53731H0Z"
+                                            fill="#94A3B8"
                                         />
                                     </svg>
                                 </div>
                             </div>
+                            <div class="ml-3 h-32 max-w-fit bg-pink-400 py-14 font-mono text-slate-400">Watch video</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="static right-0 top-0">
-                    <div><img class="absolute right-0 mr-8 h-auto w-80" src="Images\Full body 1.jpg" alt="..." /></div>
+                <div class="flex h-full w-1/2 bg-blue-900">
+                    <div class="h-full w-1/2 bg-green-500">where am i</div>
+
+                    <div class="h-full w-1/2 bg-white">
+                        <img src="Images\Full body 1.jpg" alt="..." />
+                    </div>
                 </div>
             </div>
         </div>

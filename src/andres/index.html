@@ -4,10 +4,32 @@
         <title>Andres Cantero</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- tailwind -->
         <link href="../../dist/output.css" rel="stylesheet" />
-        <script src="../../dist/output.js"></script>
+        <!--alpine.js-->
+        <script src="../../dist/output.js" defer></script>
+        <script src="./Scripts/navbar.js"></script>
     </head>
-    <body>
-        <h1 class="text-indigo-700">Hello World</h1>
+    <body x-data="andresnavbar" class="bg-slate-800">
+        <nav class="text-lg text-teal-400">
+            <!-- desktop -->
+            <div class="hidden h-20 flex-row items-center justify-between p-10 font-mono lg:flex">
+                <span class="text-lg text-teal-400">./andrescantero</span>
+                <ul class="flex space-x-8 text-sm">
+                    <template x-for="entry in entries">
+                        <ul class="font font-mono">
+                            <a :href="entry.url">
+                                <span class="text-teal-400" x-text="entry.prefix"></span>
+                                <span class="text-slate-300 hover:text-slate-200 active:text-slate-400" x-text="entry.item"></span>
+                            </a>
+                        </ul>
+                    </template>
+                </ul>
+            </div>
+            <!-- desktop -->
+            <div class="flex h-20 items-center justify-between px-4 lg:hidden">
+                <span class="text-lg text-teal-400">./andrescantero</span>
+            </div>
+        </nav>
     </body>
 </html>

@@ -1,6 +1,6 @@
 const andresnavbar = function () {
     return {
-        valid: false,
+        open: false,
         entries: [
             { item: 'home', url: '#home', prefix: '01. ' },
             { item: 'about', url: '#about', prefix: '02. ' },

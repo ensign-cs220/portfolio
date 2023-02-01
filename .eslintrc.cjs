@@ -11,7 +11,14 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
-        'prettier/prettier': 'error',
+        'no-plusplus': 'off',
+        'eol-last': 'error',
+        'prettier/prettier': [
+            'error',
+            {
+                endOfLine: 'auto',
+            },
+        ],
         'func-names': 'off',
         'global-require': 'off',
         'no-console': 'off',

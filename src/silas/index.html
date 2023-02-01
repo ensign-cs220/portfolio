@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Silas Medeiros</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../../dist/output.css" rel="stylesheet" />
+        <script src="../../dist/output.js" defer></script>
+        <script src="navbar.js"></script>
+    </head>
+    <body>
+        <nav class="flex h-20 items-center justify-between bg-slate-800 px-10 font-mono">
+            <span class="text-lg text-teal-400">./silasmedeiros</span>
+            <ul x-data="navbarSilas" class="flex space-x-8 text-sm">
+                <!-- 
+                    Based on: 
+                    https://alpinejs.dev/directives/for#accessing-indexes
+                 -->
+                <template x-for="(entry, index) in menuEntries">
+                    <li>
+                        <a class="text-slate-300 hover:text-slate-200 active:text-slate-400" :href="entry.link">
+                            <span class="text-teal-400" x-html="(index + 1).toString().padStart(2, '0') + '. '"></span
+                            ><span class="lowercase" x-html="entry.label"></span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+        <div id="about" class="h-screen w-full bg-red-500"></div>
+        <div id="skills" class="h-screen w-full bg-blue-500"></div>
+        <div id="projects" class="h-screen w-full bg-green-500"></div>
+    </body>
+</html>

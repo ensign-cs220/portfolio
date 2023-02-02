@@ -1,6 +1,6 @@
 {
   "statistics": {
-    "detectionDate": "2023-02-02T00:58:25.229Z",
+    "detectionDate": "2023-02-02T14:23:46.259Z",
     "formats": {
       "javascript": {
         "sources": {
@@ -101,8 +101,8 @@
             "newClones": 0
           },
           "tailwind.config.js": {
-            "lines": 13,
-            "tokens": 100,
+            "lines": 14,
+            "tokens": 112,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -150,14 +150,14 @@
           }
         },
         "total": {
-          "lines": 280,
-          "tokens": 2387,
+          "lines": 281,
+          "tokens": 2399,
           "sources": 12,
           "clones": 2,
           "duplicatedLines": 22,
           "duplicatedTokens": 250,
-          "percentage": 7.86,
-          "percentageTokens": 10.47,
+          "percentage": 7.83,
+          "percentageTokens": 10.42,
           "newDuplicatedLines": 0,
           "newClones": 0
         }
@@ -181,10 +181,10 @@
             "tokens": 636,
             "sources": 1,
             "clones": 7,
-            "duplicatedLines": 79,
-            "duplicatedTokens": 677,
-            "percentage": 111.27,
-            "percentageTokens": 106.45,
+            "duplicatedLines": 73,
+            "duplicatedTokens": 600,
+            "percentage": 102.82,
+            "percentageTokens": 94.34,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
@@ -261,14 +261,14 @@
             "newClones": 0
           },
           "src/danielcamargo/index.html": {
-            "lines": 204,
-            "tokens": 1515,
+            "lines": 260,
+            "tokens": 2489,
             "sources": 1,
             "clones": 3,
-            "duplicatedLines": 52,
-            "duplicatedTokens": 446,
-            "percentage": 25.49,
-            "percentageTokens": 29.44,
+            "duplicatedLines": 46,
+            "duplicatedTokens": 369,
+            "percentage": 17.69,
+            "percentageTokens": 14.83,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
@@ -310,14 +310,14 @@
           }
         },
         "total": {
-          "lines": 635,
-          "tokens": 5818,
+          "lines": 691,
+          "tokens": 6792,
           "sources": 12,
           "clones": 16,
-          "duplicatedLines": 161,
-          "duplicatedTokens": 1492,
-          "percentage": 25.35,
-          "percentageTokens": 25.64,
+          "duplicatedLines": 155,
+          "duplicatedTokens": 1415,
+          "percentage": 22.43,
+          "percentageTokens": 20.83,
           "newDuplicatedLines": 0,
           "newClones": 0
         }
@@ -325,8 +325,8 @@
       "css": {
         "sources": {
           "src/app.css": {
-            "lines": 12,
-            "tokens": 43,
+            "lines": 16,
+            "tokens": 68,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -338,8 +338,8 @@
           }
         },
         "total": {
-          "lines": 12,
-          "tokens": 43,
+          "lines": 16,
+          "tokens": 68,
           "sources": 1,
           "clones": 0,
           "duplicatedLines": 0,
@@ -352,14 +352,14 @@
       }
     },
     "total": {
-      "lines": 927,
-      "tokens": 8248,
+      "lines": 988,
+      "tokens": 9259,
       "sources": 25,
       "clones": 18,
-      "duplicatedLines": 183,
-      "duplicatedTokens": 1742,
-      "percentage": 19.74,
-      "percentageTokens": 21.12,
+      "duplicatedLines": 177,
+      "duplicatedTokens": 1665,
+      "percentage": 17.91,
+      "percentageTokens": 17.98,
       "newDuplicatedLines": 0,
       "newClones": 0
     }
@@ -386,58 +386,58 @@
         },
         "blame": {
           "28": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "28",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "29": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "29",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "30": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "30",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "31": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "31",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "32": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "32",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "33": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "33",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "34": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "34",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "35": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "35",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "36": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "36",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -457,58 +457,58 @@
         },
         "blame": {
           "17": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "17",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "18": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "18",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "19": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "19",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "20": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "20",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "21": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "21",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "22": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "22",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "23": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "23",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "24": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "24",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "25": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "25",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -534,52 +534,52 @@
         },
         "blame": {
           "56": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "56",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "57": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "57",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "58": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "58",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "59": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "59",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "60": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "60",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "61": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "61",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "62": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "62",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "63": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "63",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -599,58 +599,58 @@
         },
         "blame": {
           "43": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "43",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "44": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "44",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "45": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "45",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "46": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "46",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "47": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "47",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "48": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "48",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "49": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "49",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "50": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "50",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "51": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "51",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -676,40 +676,40 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -729,40 +729,40 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -788,58 +788,58 @@
         },
         "blame": {
           "30": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "30",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "31": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "31",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "32": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "32",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "33": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "33",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "34": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "34",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "35": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "35",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "36": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "36",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "37": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "37",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "38": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "38",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -859,58 +859,58 @@
         },
         "blame": {
           "19": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "19",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "20": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "20",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "21": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "21",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "22": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "22",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "23": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "23",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "24": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "24",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "25": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "25",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "26": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "26",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "27": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "27",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -936,58 +936,58 @@
         },
         "blame": {
           "62": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "62",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "63": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "63",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "64": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "64",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "65": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "65",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "66": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "66",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "67": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "67",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "68": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "68",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "69": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "69",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "70": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "70",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -1007,58 +1007,58 @@
         },
         "blame": {
           "48": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "48",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "49": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "49",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "50": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "50",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "51": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "51",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "52": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "52",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "53": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "53",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "54": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "54",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "55": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "55",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "56": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "56",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -1084,58 +1084,58 @@
         },
         "blame": {
           "1": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "1",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "2": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "2",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "3": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "3",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -1155,58 +1155,58 @@
         },
         "blame": {
           "1": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "1",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "2": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "2",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "3": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "3",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -1232,160 +1232,160 @@
         },
         "blame": {
           "19": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "19",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "20": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "20",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "21": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "21",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "22": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "22",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "23": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "23",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "24": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "24",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "25": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "25",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "26": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "26",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "27": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "27",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "28": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "28",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "29": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "29",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "30": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "30",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "31": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "31",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "32": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "32",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "33": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "33",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "34": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "34",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "35": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "35",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "36": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "36",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "37": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "37",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "38": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "38",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "39": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "39",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "40": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "40",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "41": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "41",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "42": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "42",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "43": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "43",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "44": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "44",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -1405,160 +1405,160 @@
         },
         "blame": {
           "15": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "15",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "16": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "16",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "17": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "17",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "18": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "18",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "19": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "19",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "20": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "20",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "21": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "21",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "22": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "22",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "23": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "23",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "24": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "24",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "25": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "25",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "26": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "26",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "27": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "27",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "28": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "28",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "29": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "29",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "30": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "30",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "31": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "31",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "32": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "32",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "33": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "33",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "34": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "34",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "35": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "35",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "36": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "36",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "37": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "37",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "38": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "38",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "39": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "39",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "40": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "40",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -1584,64 +1584,64 @@
         },
         "blame": {
           "39": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "39",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "40": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "40",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "41": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "41",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "42": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "42",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "43": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "43",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "44": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "44",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "45": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "45",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "46": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "46",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "47": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "47",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "48": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "48",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -1661,64 +1661,64 @@
         },
         "blame": {
           "37": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "37",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "38": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "38",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "39": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "39",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "40": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "40",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "41": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "41",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "42": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "42",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "43": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "43",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "44": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "44",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "45": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "45",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "46": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "46",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -1744,64 +1744,64 @@
         },
         "blame": {
           "64": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "64",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "65": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "65",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "66": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "66",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "67": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "67",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "68": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "68",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "69": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "69",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "70": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "70",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "71": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "71",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "72": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "72",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "73": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "73",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -1821,58 +1821,58 @@
         },
         "blame": {
           "50": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "50",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "51": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "51",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "52": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "52",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "53": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "53",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "54": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "54",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "55": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "55",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "56": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "56",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "57": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "57",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "58": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "58",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -1898,58 +1898,58 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "10": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "10",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "11": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "11",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "12": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "12",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -1969,58 +1969,58 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "10": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "10",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "11": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "11",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "12": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "12",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -2046,40 +2046,40 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -2099,40 +2099,40 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -2158,52 +2158,52 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "10": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "10",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "11": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "11",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -2223,52 +2223,52 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "10": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "10",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "11": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "11",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -2294,40 +2294,40 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -2347,488 +2347,410 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
     },
     {
       "format": "markup",
-      "lines": 34,
-      "fragment": "</span>\n                    <button @click=\"open = !open\" class=\"text-slate-300\">\n                        <svg\n                            x-show=\"!open\"\n                            xmlns=\"http://www.w3.org/2000/svg\"\n                            fill=\"none\"\n                            viewBox=\"0 0 24 24\"\n                            stroke-width=\"1.5\"\n                            stroke=\"currentColor\"\n                            class=\"h-8 w-8\"\n                        >\n                            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5\" />\n                        </svg>\n                        <svg\n                            x-show=\"open\"\n                            xmlns=\"http://www.w3.org/2000/svg\"\n                            fill=\"none\"\n                            viewBox=\"0 0 24 24\"\n                            stroke-width=\"1.5\"\n                            stroke=\"currentColor\"\n                            class=\"h-8 w-8\"\n                        >\n                            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n                        </svg>\n                    </button>\n                </div>\n                <ul x-show=\"open\" class=\"absolute right-0 left-0 bg-slate-800 text-sm\">\n                    <template x-for=\"(entry, i) in entries\">\n                        <li class=\"w-full\">\n                            <a\n                                x-bind:href=\"entry.targetSection\"\n                                class=\"block whitespace-nowrap p-4 text-slate-300 focus-within:bg-slate-900 hover:bg-slate-900 hover:text-slate-200 active:text-slate-400\"\n                            >\n                                <span class=\"text-teal-400\" x-text=\"'0' + (i + 1) + '. '\">01.",
+      "lines": 28,
+      "fragment": "</span>\n                    <button @click=\"open = !open\" class=\"text-slate-300\">\n                        <svg\n                            x-show=\"!open\"\n                            xmlns=\"http://www.w3.org/2000/svg\"\n                            fill=\"none\"\n                            viewBox=\"0 0 24 24\"\n                            stroke-width=\"1.5\"\n                            stroke=\"currentColor\"\n                            class=\"h-8 w-8\"\n                        >\n                            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5\" />\n                        </svg>\n                        <svg\n                            x-show=\"open\"\n                            xmlns=\"http://www.w3.org/2000/svg\"\n                            fill=\"none\"\n                            viewBox=\"0 0 24 24\"\n                            stroke-width=\"1.5\"\n                            stroke=\"currentColor\"\n                            class=\"h-8 w-8\"\n                        >\n                            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n                        </svg>\n                    </button>\n                </div>\n                <ul\n                    ",
       "tokens": 0,
       "firstFile": {
         "name": "src/danielcamargo/index.html",
         "start": 22,
-        "end": 55,
+        "end": 49,
         "startLoc": {
           "line": 22,
           "column": 16,
-          "position": 206
+          "position": 212
         },
         "endLoc": {
-          "line": 55,
-          "column": 4,
-          "position": 471
+          "line": 49,
+          "column": 21,
+          "position": 400
         },
         "blame": {
           "22": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "22",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "23": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "23",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "24": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "24",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "25": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "25",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "26": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "26",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "27": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "27",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "28": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "28",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "29": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "29",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "30": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "30",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "31": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "31",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "32": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "32",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "33": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "33",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "34": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "34",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "35": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "35",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "36": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "36",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "37": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "37",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "38": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "38",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "39": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "39",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "40": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "40",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "41": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "41",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "42": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "42",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "43": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "43",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "44": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "44",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "45": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "45",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "46": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "46",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "47": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "47",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "48": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "48",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "49": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "49",
-            "rev": "^433993a"
-          },
-          "50": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "50",
-            "rev": "^433993a"
-          },
-          "51": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "51",
-            "rev": "^433993a"
-          },
-          "52": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "52",
-            "rev": "^433993a"
-          },
-          "53": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "53",
-            "rev": "^433993a"
-          },
-          "54": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "54",
-            "rev": "^433993a"
-          },
-          "55": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "55",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
       "secondFile": {
         "name": "src/wesley/index.html",
         "start": 16,
-        "end": 49,
+        "end": 42,
         "startLoc": {
           "line": 16,
           "column": 15,
           "position": 171
         },
         "endLoc": {
-          "line": 49,
-          "column": 3,
-          "position": 436
+          "line": 42,
+          "column": 2,
+          "position": 359
         },
         "blame": {
           "16": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "16",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "17": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "17",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "18": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "18",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "19": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "19",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "20": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "20",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "21": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "21",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "22": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "22",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "23": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "23",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "24": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "24",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "25": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "25",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "26": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "26",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "27": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "27",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "28": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "28",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "29": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "29",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "30": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "30",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "31": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "31",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "32": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "32",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "33": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "33",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "34": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "34",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "35": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "35",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "36": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "36",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "37": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "37",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "38": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "38",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "39": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "39",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "40": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "40",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "41": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "41",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "42": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "42",
-            "rev": "^433993a"
-          },
-          "43": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "43",
-            "rev": "^433993a"
-          },
-          "44": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "44",
-            "rev": "^433993a"
-          },
-          "45": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "45",
-            "rev": "^433993a"
-          },
-          "46": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "46",
-            "rev": "^433993a"
-          },
-          "47": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "47",
-            "rev": "^433993a"
-          },
-          "48": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "48",
-            "rev": "^433993a"
-          },
-          "49": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "49",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -2840,66 +2762,66 @@
       "tokens": 0,
       "firstFile": {
         "name": "src/danielcamargo/index.html",
-        "start": 54,
-        "end": 61,
+        "start": 63,
+        "end": 70,
         "startLoc": {
-          "line": 54,
+          "line": 63,
           "column": 29,
-          "position": 447
+          "position": 496
         },
         "endLoc": {
-          "line": 61,
+          "line": 70,
           "column": 4,
-          "position": 512
+          "position": 561
         },
         "blame": {
-          "54": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "54",
-            "rev": "^433993a"
+          "63": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "63",
+            "rev": "^66944b1"
           },
-          "55": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "55",
-            "rev": "^433993a"
+          "64": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "64",
+            "rev": "^66944b1"
           },
-          "56": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "56",
-            "rev": "^433993a"
+          "65": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "65",
+            "rev": "^66944b1"
           },
-          "57": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "57",
-            "rev": "^433993a"
+          "66": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "66",
+            "rev": "^66944b1"
           },
-          "58": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "58",
-            "rev": "^433993a"
+          "67": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "67",
+            "rev": "^66944b1"
           },
-          "59": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "59",
-            "rev": "^433993a"
+          "68": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "68",
+            "rev": "^66944b1"
           },
-          "60": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "60",
-            "rev": "^433993a"
+          "69": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "69",
+            "rev": "^66944b1"
           },
-          "61": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "61",
-            "rev": "^433993a"
+          "70": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "70",
+            "rev": "^66944b1"
           }
         }
       },
@@ -2919,52 +2841,52 @@
         },
         "blame": {
           "50": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "50",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "51": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "51",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "52": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "52",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "53": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "53",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "54": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "54",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "55": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "55",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "56": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "56",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "57": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "57",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -2976,131 +2898,185 @@
       "tokens": 0,
       "firstFile": {
         "name": "src/danielcamargo/index.html",
-        "start": 64,
-        "end": 76,
+        "start": 73,
+        "end": 85,
         "startLoc": {
-          "line": 64,
+          "line": 73,
           "column": 16,
-          "position": 540
+          "position": 589
         },
         "endLoc": {
-          "line": 76,
+          "line": 85,
           "column": 3,
-          "position": 656
+          "position": 705
         },
         "blame": {
-          "64": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "64",
-            "rev": "^433993a"
-          },
-          "65": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "65",
-            "rev": "^433993a"
-          },
-          "66": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "66",
-            "rev": "^433993a"
-          },
-          "67": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "67",
-            "rev": "^433993a"
-          },
-          "68": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "68",
-            "rev": "^433993a"
-          },
-          "69": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "69",
-            "rev": "^433993a"
-          },
-          "70": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "70",
-            "rev": "^433993a"
-          },
-          "71": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "71",
-            "rev": "^433993a"
-          },
-          "72": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
-            "line": "72",
-            "rev": "^433993a"
-          },
           "73": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "73",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "74": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "74",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "75": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "75",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "76": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "76",
-            "rev": "^433993a"
+            "rev": "^66944b1"
+          },
+          "77": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "77",
+            "rev": "^66944b1"
+          },
+          "78": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "78",
+            "rev": "^66944b1"
+          },
+          "79": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "79",
+            "rev": "^66944b1"
+          },
+          "80": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "80",
+            "rev": "^66944b1"
+          },
+          "81": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "81",
+            "rev": "^66944b1"
+          },
+          "82": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "82",
+            "rev": "^66944b1"
+          },
+          "83": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "83",
+            "rev": "^66944b1"
+          },
+          "84": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "84",
+            "rev": "^66944b1"
+          },
+          "85": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "85",
+            "rev": "^66944b1"
           }
         }
       },
       "secondFile": {
         "name": "src/tanner/index.html",
         "start": 60,
-        "end": 62,
+        "end": 71,
         "startLoc": {
           "line": 60,
           "column": 16,
           "position": 507
         },
         "endLoc": {
-          "line": 62,
+          "line": 71,
           "column": 23,
-          "position": 516
+          "position": 565
         },
         "blame": {
           "60": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "60",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "61": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "61",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "62": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "62",
-            "rev": "^433993a"
+            "rev": "^66944b1"
+          },
+          "63": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "63",
+            "rev": "^66944b1"
+          },
+          "64": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "64",
+            "rev": "^66944b1"
+          },
+          "65": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "65",
+            "rev": "^66944b1"
+          },
+          "66": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "66",
+            "rev": "^66944b1"
+          },
+          "67": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "67",
+            "rev": "^66944b1"
+          },
+          "68": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "68",
+            "rev": "^66944b1"
+          },
+          "69": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "69",
+            "rev": "^66944b1"
+          },
+          "70": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "70",
+            "rev": "^66944b1"
+          },
+          "71": {
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
+            "line": "71",
+            "rev": "^66944b1"
           }
         }
       }
@@ -3126,94 +3102,94 @@
         },
         "blame": {
           "1": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "1",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "2": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "2",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "3": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "3",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "10": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "10",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "11": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "11",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "12": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "12",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "13": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "13",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "14": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "14",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "15": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "15",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -3233,88 +3209,88 @@
         },
         "blame": {
           "1": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "1",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "2": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "2",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "3": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "3",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "10": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "10",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "11": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "11",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "12": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "12",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "13": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "13",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "14": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "14",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }
@@ -3340,40 +3316,40 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       },
@@ -3393,40 +3369,40 @@
         },
         "blame": {
           "4": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "4",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "5": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "5",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "6": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "6",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "7": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "7",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "8": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "8",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           },
           "9": {
-            "author": "Ismatulla Mansurov",
-            "date": "2023-02-01 17:57:54 -0700",
+            "author": "Daniel Teleginski Camargo",
+            "date": "2023-02-02 07:23:04 -0700",
             "line": "9",
-            "rev": "^433993a"
+            "rev": "^66944b1"
           }
         }
       }

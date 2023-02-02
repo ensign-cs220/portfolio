@@ -46,7 +46,7 @@ automations:
           label: 'safe-changes'
       # You can uncomment the following action to get gitStream to automatically approve 
       # such PRs to save reviewers time for such changes.
-       - action: approve@v1
+      - action: approve@v1
 
   suggest_the_right_reviewer:
     if:

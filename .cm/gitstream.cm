@@ -60,7 +60,7 @@ automations:
       # the suggested reviewers
       - action: add-reviewers@v1
          args:
-           reviewers: {{ repo | rankByGitBlame(gt=25) }}
+          reviewers: {{ repo | rankByGitBlame(gt=25) }}
 
 calc:
   etr: {{ branch | estimatedReviewTime }}

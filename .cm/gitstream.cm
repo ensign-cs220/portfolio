@@ -55,12 +55,12 @@ automations:
       - action: add-comment@v1
         args:
           comment: |
-            {{ repo | explainRankByGitBlame(gt=25) }}
+            {{ repo | explainRankByGitBlame(gt=10) | random }}
       # You can uncomment the following action to get gitStream to automatically assign
       # the suggested reviewers
       - action: add-reviewers@v1
          args:
-           reviewers: {{ repo | rankByGitBlame(gt=25) }}
+           reviewers: {{ repo | rankByGitBlame(gt=10) }}
 
 calc:
   etr: {{ branch | estimatedReviewTime }}

@@ -46,7 +46,7 @@ automations:
           label: 'safe-changes'
       # You can uncomment the following action to get gitStream to automatically approve 
       # such PRs to save reviewers time for such changes.
-       - action: approve@v1
+      - action: approve@v1
 
   suggest_the_right_reviewer:
     if:
@@ -55,12 +55,22 @@ automations:
       - action: add-comment@v1
         args:
           comment: |
-            {{ repo | explainRankByGitBlame(gt=25) }}
+            {{ repo | explainRankByGitBlame(gt=10) | random }}
       # You can uncomment the following action to get gitStream to automatically assign
       # the suggested reviewers
       - action: add-reviewers@v1
-         args:
-           reviewers: {{ repo | rankByGitBlame(gt=25) }}
+        args:
+          reviewers: {{ repo | rankByGitBlame(gt=10) }}
+    
+  double_review:
+    if:
+      - {{ branch | estimatedReviewTime >= 30 }}
+      - {{ files | length >= 10 }}
+      - {{ files | match(regex=r/src\//) | some }}
+    run:
+      - action: set-required-approvals@v1
+        args:
+          approvals: 2
 
 calc:
   etr: {{ branch | estimatedReviewTime }}

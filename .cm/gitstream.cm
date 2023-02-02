@@ -59,7 +59,7 @@ automations:
       # You can uncomment the following action to get gitStream to automatically assign
       # the suggested reviewers
       - action: add-reviewers@v1
-         args:
+        args:
           reviewers: {{ repo | rankByGitBlame(gt=25) }}
 
 calc:

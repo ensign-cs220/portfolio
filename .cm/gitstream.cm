@@ -62,7 +62,6 @@ automations:
         args:
           reviewers: {{ repo | rankByGitBlame(gt=10) }}
     
-  automations:
   double_review:
     if:
       - {{ branch | estimatedReviewTime >= 30 }}

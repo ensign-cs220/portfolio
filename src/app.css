@@ -1,5 +1,5 @@
 /* https://fonts.google.com/share?selection.family=Cormorant%7CFira%20Code */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Cormorant&family=Fira+Code&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,4 +10,8 @@
 }
 
 @layer utilities {
+    .h-screen--20 {
+        /* base font 16px */
+        min-height: calc(100vh - 5rem);
+    }
 }

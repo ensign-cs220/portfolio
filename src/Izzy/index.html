@@ -7,6 +7,8 @@
         <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js"></script>
         <script src="./navBar.js"></script>
+        <script src="./header.js"></script>
+        <script src="./helpers/aboutStyles.css"></script>
     </head>
 
     <body x-data="navbar()" class="bg-slate-800">
@@ -50,17 +52,14 @@
             </div>
         </div>
 
-        <header class="bg-slate-800 p-4 py-10 text-center font-mono sm:grid-cols-1 lg:grid-cols-2 lg:px-20 lg:text-left">
-            <div>
-                <img src="./assets/images/Face.png" alt="image" class="pb-4 lg:hidden xl:hidden" />
-            </div>
-            <div class="flex">
+        <header class="flex h-screen flex-col flex-col-reverse bg-slate-800 p-4 py-10 font-mono lg:flex-row lg:px-20 lg:text-left">
+            <div class="">
                 <div class="">
                     <h1 class="text-lg text-teal-400">Hey, my name is</h1>
                     <h2 class="py-3 text-3xl text-slate-300 lg:text-5xl">Izzy Mansurov</h2>
                     <h3 class="py-3 pb-9 text-slate-300">
                         I'm an iOS Developer with interest in Machine Learning and low-level graphics. I am an avid Snowboarder, ping me if you have a
-                        ride in mind. I, also love history and maps! Check out my projects.
+                        ride in mind. I, also love history and maps! Check my projects out.
                     </h3>
 
                     <div class="text-center">
@@ -73,21 +72,34 @@
                         </button>
                     </div>
                 </div>
-                <div class="">
-                    <div class="items-center justify-center pt-3 sm:hidden md:hidden lg:flex">
-                        <img src="./assets/images/Face.png" class="hidden h-auto max-w-sm sm:block" alt="Izzy Mansurov Logo" />
-                    </div>
-                </div>
+            </div>
+            <div class="pt-3 sm:justify-center lg:items-end">
+                <img src="./assets/images/Face.png" class="sm:max-h-100 h-80 sm:object-cover sm:object-center lg:h-auto" alt="Izzy Mansurov Logo" />
             </div>
         </header>
+
+        <section
+            class="Row flex flex-col flex-col-reverse font-mono text-slate-300 sm:items-center md:items-center lg:flex-row lg:p-4 lg:py-10 lg:px-20 lg:text-left"
+        >
+            <div class="" id="aboutSection">
+                <div class="p-10">
+                    <div class="relative flex items-center py-5">
+                        <h2 class="text-teal-400">02</h2>
+                        <h2 class="px-2 text-center text-2xl font-bold">About</h2>
+                        <div class="flex-grow border border-dashed border-teal-400"></div>
+                        <!--TODO:// Calculate the width of screen, and add the limiter that populates the whole screen -->
+                    </div>
+                    <p class="">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, lorem vel tincidunt finibus, odio ex tempus ligula, ut
+                        varius ante magna eu metus. Integer malesuada, leo vel volutpat tempor, odio libero dapibus odio, eget bibendum ipsum tellus
+                        at nunc. Aliquam rutrum risus ante, id aliquet nisi feugiat ac.
+                    </p>
+                </div>
+            </div>
+
+            <div class="lg:w-1/2">
+                <img src="./assets/images/Cycling.jpg" class="sm:max-h-100 h-80 sm:object-cover sm:object-center lg:h-auto" alt="Cycling image" />
+            </div>
+        </section>
     </body>
 </html>
-
-<script>
-    function downloadFile(filePath) {
-        const a = document.createElement('a');
-        a.href = filePath;
-        a.download = 'Izzy Mansurov resume';
-        a.click();
-    }
-</script>

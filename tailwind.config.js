@@ -5,14 +5,11 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Roboto'],
+                serif: ['Cormorant', 'serif'],
+                mono: ['Fira Code', 'mono'],
+                cursive: ['Itim', 'cursive'],
             },
         },
     },
-    plugins: [
-        require('@tailwindcss/typography'),
-        require('@tailwindcss/forms'),
-        require('@tailwindcss/line-clamp'),
-        require('@tailwindcss/aspect-ratio'),
-    ],
+    plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms'), require('@tailwindcss/line-clamp')],
 };

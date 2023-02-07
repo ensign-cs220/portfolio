@@ -54,7 +54,7 @@
                 </ul>
             </nav>
             <!--  navbar desktop -->
-            <nav x-data="navbar()" class="h-20 items-center justify-between bg-slate-800 px-10 font-mono sm:hidden lg:flex">
+            <nav x-data="navbar()" class="h-20 items-center justify-between bg-slate-800 px-10 font-mono mobile:hidden sm:hidden lg:flex">
                 <span class="text-lg text-teal-400">./wesleysantos</span>
                 <ul class="flex space-x-8 text-sm">
                     <template x-for="(entry, i) in entries">
@@ -68,33 +68,33 @@
                 </ul>
             </nav>
             <!-- home -->
-            <section id="home mobile" class="w-full flex-col lg:hidden">
-                <div class="flex h-[32rem] justify-center px-10">
-                    <img src="porti_pic.jpg" alt="port_img" class="object-fill" />
+            <section class="w-full flex-row px-4 lg:flex-col">
+                <div class="px-10 mobile:items-center mobile:justify-center lg:h-[10rem] lg:w-1/2 lg:items-end lg:px-8">
+                    <img src="porti_pic.jpg" alt="port_img" class="w-10px h-px object-contain" />
                 </div>
-                <div class="mt-10 flex w-full flex-col items-center justify-center space-y-8">
-                    <h2 class="font-regular justify-center font-mono text-base text-teal-400">Hey, my name is</h2>
-                    <h2 class="font-regular justify-center whitespace-nowrap font-serif text-6xl text-white">Wesley dos Santos</h2>
+                <div class="mt-5 flex flex-col items-center justify-center space-y-5">
+                    <h2 class="h-1.5px ftext-mono font-regular px-4 text-base text-teal-400">Hey, my name is</h2>
+                    <h2 class="font-regular whitespace-nowrap px-4 font-serif text-4xl text-white">Wesley dos Santos</h2>
                     <div class="w-3/4 flex-col items-center px-2">
-                        <a class="font-regular prose-sm mx-auto items-center px-2 font-mono text-lg text-slate-300">
+                        <p class="font-regular text-mono justify-center px-8 text-center text-lg text-slate-300">
                             I am a computer scientist student passionate for technology and design. I developed a particular interest in creating
                             vibrating UI experiences. In the last months I have been doing a series of qualifications to become a more specialize
                             professional.
-                        </a>
+                        </p>
                     </div>
                     <button
-                        class="inline-flex w-3/4 justify-center space-x-3 rounded border border-teal-400 px-6 py-3 font-mono text-sm text-teal-400 hover:border-teal-300 hover:bg-slate-700 hover:text-teal-300 focus:border-teal-300 focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-300 focus:ring-offset-2 focus:ring-offset-slate-800 active:border-teal-500 active:text-teal-500"
+                        class="inline-flex h-10 w-full items-center justify-center space-x-6 rounded border border-teal-400 px-4 py-3 font-mono text-sm text-teal-400 hover:border-teal-300 hover:bg-slate-700 hover:text-teal-300 focus:border-teal-300 focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-300 focus:ring-offset-2 focus:ring-offset-slate-800 active:border-teal-500 active:text-teal-500 group-focus:bg-teal-400"
                     >
                         <a class="whitespace-nowrap" href="Resume.pdf" target="_blank"> Download my resume </a>
 
-                        <div class="inline-flex h-4 w-4 items-center">
+                        <div class="inline-flex h-3 w-3 items-center px-4">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke-width="1.5"
                                 stroke="currentColor"
-                                class="h-6 w-6"
+                                class="h-4 w-2"
                             >
                                 <path
                                     stroke-linecap="round"
@@ -105,75 +105,16 @@
                         </div>
                     </button>
                     <div>
-                        <button
-                            class="inline-flex items-center gap-4 to-white text-slate-400 hover:border-teal-300 focus:outline-none active:border-teal-500 active:text-teal-500"
-                        >
-                            <span class="hoover: rounded-full border border-slate-400 fill-slate-400 p-6">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill=""
-                                    viewBox="0 0 24 24"
-                                    stroke-width="1.5"
-                                    stroke="currentColor"
-                                    class="h-6 w-6"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
-                                    />
-                                </svg>
-                            </span>
-                            <a href="https://www.youtube.com/shorts/A-nLozFIk_g" target="_blank" class="hover:text-teal-300">Watch video</a>
-                        </button>
-                    </div>
-                </div>
-            </section>
-            <!-- home  desktop-->
-            <section id="home" class="min-h-screen--navbar flex flex-row px-10 sm:hidden lg:flex">
-                <div class="flex w-1/2 flex-row items-center justify-start">
-                    <div class="space-y-8">
-                        <h1 class="font-regular font-mono text-base text-teal-400">Hey, my name is</h1>
-                        <h2 class="font-regular whitespace-nowrap font-serif text-6xl text-white">Wesley dos Santos</h2>
-                        <p class="font-regular prose-sm mx-auto font-mono text-lg text-slate-300">
-                            I am a computer scientist student passionate for technology and design. I developed a particular interest in creating
-                            vibrating UI experiences. In the last months I have been doing a series of qualifications to become a more specialize
-                            professional.
-                        </p>
-                        <button
-                            class="inline-flex space-x-3 rounded border border-teal-400 px-6 py-3 font-mono text-sm text-teal-400 hover:border-teal-300 hover:bg-slate-700 hover:text-teal-300 focus:border-teal-300 focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-300 focus:ring-offset-2 focus:ring-offset-slate-800 active:border-teal-500 active:text-teal-500"
-                        >
-                            <a class="whitespace-nowrap" href="Resume.pdf" target="_blank"> Download my resume </a>
-
-                            <div class="inline-flex h-4 w-4 items-center">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke-width="1.5"
-                                    stroke="currentColor"
-                                    class="h-6 w-6"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-                                    />
-                                </svg>
-                            </div>
-                        </button>
-                        <div>
-                            <button
-                                class="inline-flex items-center gap-4 to-white text-slate-400 hover:border-teal-300 focus:outline-none active:border-teal-500 active:text-teal-500"
-                            >
-                                <span class="hoover: rounded-full border border-slate-400 fill-slate-400 p-6">
+                        <button class="inline-flex items-center gap-4 to-white text-slate-400 hover:border-teal-300 focus:outline-none">
+                            <div class="group inline-flex items-center gap-4">
+                                <span class="rounded-full border border-slate-400 fill-slate-400 p-6 group-focus:bg-teal-400">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill=""
                                         viewBox="0 0 24 24"
                                         stroke-width="1.5"
                                         stroke="currentColor"
-                                        class="h-6 w-6"
+                                        class="h-6 w-6 group-focus:bg-teal-400"
                                     >
                                         <path
                                             stroke-linecap="round"
@@ -182,32 +123,25 @@
                                         />
                                     </svg>
                                 </span>
-                                <a href="https://www.youtube.com/shorts/A-nLozFIk_g" target="_blank" class="hover:text-teal-300">Watch video</a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex w-1/2 flex-row items-center justify-end pt-20">
-                    <div class="h-[32rem] w-[30rem]">
-                        <img src="porti_pic.jpg" alt="port_img" class="object-fill" />
+                                <a href="https://www.youtube.com/shorts/A-nLozFIk_g" target="_blank">Watch video</a>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </section>
             <!-- About mobile and desktop-->
-            <section class="px-10 pt-20">
-                <h2 class="h-10 w-full flex-col items-center justify-center space-x-3 pl-[4.5rem]">
+            <section class="flex-col space-y-6 px-4 pt-20 lg:flex-row">
+                <h2 class="h-10 w-full flex-col items-center justify-center space-x-3">
                     <span class="font-xl font-regular font-mono text-teal-400">02</span>
                     <span class="font-regular font-mono text-xl text-white">About</span>
-                    <span class="auto-fit text-overflow: items-center text-ellipsis text-teal-400"
-                        >----------------------------------------------------------------------------
-                    </span>
+                    <span class="text-teal-400">--------------------------------------- </span>
                 </h2>
 
-                <div class="ml-2 flex px-20">
-                    <div class="pt-10px position: absolute h-[25.3rem] w-[38.47rem] bg-slate-400"></div>
-                    <div class="mt-[2rem] h-[25.3rem] w-[41.47rem] bg-teal-400">hey</div>
+                <div class="flex-row py-4">
+                    <div class="pt-10px position: absolute h-[25.37rem] w-[21.31rem] bg-slate-400"></div>
+                    <div class="ml-1 mt-8 h-[25.3rem] w-full bg-teal-400"></div>
                 </div>
-                <div class="font-regular text-mono w-full flex-row justify-center space-y-5 px-10 pt-12 text-lg text-slate-300">
+                <div class="font-regular text-mono space-y-5 px-10 pt-12 text-lg text-slate-300">
                     <p>
                         Hello! I’m Baptiste and my passion is creating all sorts of things related to new technologies. I’m passionate about Web
                         development and I worked for the first time as a Front-End dev in 2018 at CAUE Du Nord.
@@ -220,7 +154,7 @@
                     </p>
 
                     <p>
-                        This year I had the opportunity to spend 6 month in California at<em class="text-teal-400">CSUSM</em> where my major was
+                        This year I had the opportunity to spend 6 month in California at <em class="text-teal-400">CSUSM</em> where my major was
                         Computer Science. I ended this semester with the award of the <em class="text-teal-400">Outstanding studient</em> for my
                         dedication and work in this university.
                     </p>

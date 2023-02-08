@@ -4,39 +4,69 @@
         <title>Jose</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="style.css" />
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js" defer></script>
+        <script src="navbar.js"></script>
     </head>
     <body>
-        <nav class="flex h-20 items-center justify-between bg-slate-800 px-10 font-mono only:h-20 md:px-12">
-            <label class="text-large text-teal-400">./joseyanez</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="{1.5}" stroke="white" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>
-            </button>
-            <ul class="flex space-x-8 text-sm text-slate-300">
-                <li>
-                    <a class="active" href="#"><span class="text-teal-300">01. </span> home</a>
-                </li>
-                <li>
-                    <a href="#"><span class="text-teal-300">02. </span> about</a>
-                </li>
-                <li>
-                    <a href="#"><span class="text-teal-300">02. </span> skills</a>
-                </li>
-                <li>
-                    <a href="#"><span class="text-teal-300">02. </span> experience</a>
-                </li>
-                <li>
-                    <a href="#"><span class="text-teal-300">02. </span> projects</a>
-                </li>
-                <li>
-                    <a href="#"><span class="text-teal-300">02. </span> contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="flex min-h-screen flex-col justify-between">
+            <!--- mobile navbar --->
+            <nav x-data="navbar()" class="h-20 bg-slate-800 px-4 font-mono lg:hidden">
+                <div class="flex h-full items-center justify-between">
+                    <span class="text-lg-20px text-teal-400">./joseyanez</span>
+                    <button @click="open = !open" class="text-slate-300">
+                        <svg
+                            x-show="!open"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-8 w-8"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg
+                            x-show="open"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-8 w-8"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <ul x-show="open" class="absolute right-0 left-0 bg-slate-800 text-sm">
+                    <template x-for="(entry, i) in entries">
+                        <li class="w-full">
+                            <a
+                                x-bind:href="entry.targetSection"
+                                class="block whitespace-nowrap p-4 text-slate-300 focus-within:bg-slate-900 hover:text-slate-200 active:text-slate-400"
+                            >
+                                <span class="text-teal-400" x-text=" '0' + (i + 1) + '. '"></span>
+                                <span x-text="entry.name"></span>
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </nav>
+            <!--- desktop navbar version --->
+            <nav x-data="navbar()" class="hidden h-20 items-center justify-between bg-slate-800 px-10 font-mono lg:flex">
+                <span class="text-lg text-teal-400">./joseyanez</span>
+                <ul class="flex space-x-8 text-sm">
+                    <template x-for="(entry, i) in entries">
+                        <li>
+                            <a x-bind:href="entry.targetSection" class="whitespace-nowrap text-slate-300 hover:text-slate-200 active:text-slate-400">
+                                <span class="text-teal-400" x-text="'0' + (i + 1) + '.'"></span>
+                                <span x-text="entry.name"></span>
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </nav>
+        </div>
     </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jason Chen</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../../dist/output.css" rel="stylesheet" />
+        <script src="../../dist/output.js" defer></script>
+        <script src="./Scripts/navbar.js"></script>
+    </head>
+    <body>
+        <nav class="flex h-20 w-full flex-row items-center justify-between bg-slate-800 py-10">
+            <div class="pl-10 font-mono text-lg font-normal leading-8 text-teal-400">
+                <span>./JasonChen</span>
+            </div>
+            <ul x-data="jasonNavbar" class="flex space-x-8 text-base">
+                <template x-for="e in entries">
+                    <li>
+                        <a class="text-slate-300 hover:text-slate-300 active:text-slate-400" :href="e.link">
+                            <span class="text-slate-300" x-html="e.prefix">
+                                <span x-html="e.label"></span>
+                            </span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+        <section>
+            <div class="w-sreen md grid h-screen grid-cols-2 grid-rows-2">
+                <div class="flex h-full w-full place-items-center justify-center bg-blue-800 text-4xl text-white md:h-screen">
+                    <p>Page1</p>
+                </div>
+                <div class="flex h-full w-full place-items-center justify-center bg-black text-4xl text-white md:h-screen">
+                    <p>Page2</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

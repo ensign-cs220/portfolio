@@ -19,5 +19,6 @@
         "tailwindcss",
         "Waka",
         "zacks"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

@@ -8,7 +8,7 @@
         <script src="../../dist/output.js"></script>
         <script src="./navBar.js"></script>
         <script src="./header.js"></script>
-        <script src="./helpers/aboutStyles.css"></script>
+        <link rel="stylesheet" href="./helpers/aboutStyles.css" />
     </head>
 
     <body x-data="navbar()" class="bg-slate-800">
@@ -52,7 +52,10 @@
             </div>
         </div>
 
-        <header class="flex h-screen flex-col flex-col-reverse bg-slate-800 p-4 py-10 font-mono lg:flex-row lg:px-20 lg:text-left">
+        <header class="header-section">
+            <div class="md:w-1/3">
+                <img src="./assets/images/Face.png" class="object-fill md:h-auto" alt="Resume picture" />
+            </div>
             <div class="">
                 <div class="">
                     <h1 class="text-lg text-teal-400">Hey, my name is</h1>
@@ -73,32 +76,25 @@
                     </div>
                 </div>
             </div>
-            <div class="pt-3 sm:justify-center lg:items-end">
-                <img src="./assets/images/Face.png" class="sm:max-h-100 h-80 sm:object-cover sm:object-center lg:h-auto" alt="Izzy Mansurov Logo" />
-            </div>
         </header>
 
-        <section
-            class="Row flex flex-col flex-col-reverse font-mono text-slate-300 sm:items-center md:items-center lg:flex-row lg:p-4 lg:py-10 lg:px-20 lg:text-left"
-        >
-            <div class="" id="aboutSection">
-                <div class="p-10">
-                    <div class="relative flex items-center py-5">
-                        <h2 class="text-teal-400">02</h2>
-                        <h2 class="px-2 text-center text-2xl font-bold">About</h2>
-                        <div class="flex-grow border border-dashed border-teal-400"></div>
-                        <!--TODO:// Calculate the width of screen, and add the limiter that populates the whole screen -->
-                    </div>
-                    <p class="">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, lorem vel tincidunt finibus, odio ex tempus ligula, ut
-                        varius ante magna eu metus. Integer malesuada, leo vel volutpat tempor, odio libero dapibus odio, eget bibendum ipsum tellus
-                        at nunc. Aliquam rutrum risus ante, id aliquet nisi feugiat ac.
-                    </p>
-                </div>
+        <section class="about-section" id="about">
+            <div class="relative flex items-center py-5">
+                <h2 class="text-teal-400">02</h2>
+                <h2 class="px-2 text-center text-2xl font-bold">about</h2>
+                <div class="flex-grow border border-dashed border-teal-400"></div>
+                <!--TODO:// Calculate the width of screen, and add the limiter that populates the whole screen -->
             </div>
-
-            <div class="lg:w-1/2">
-                <img src="./assets/images/Cycling.jpg" class="sm:max-h-100 h-80 sm:object-cover sm:object-center lg:h-auto" alt="Cycling image" />
+            <div class="flex flex-col md:flex-row-reverse">
+                <div class="relative mb-8 md:mb-auto md:ml-24">
+                    <img src="./assets/images/Cycling.jpg" alt="Me cycling." />
+                    <svg class="absolute top-4 -right-4 -z-10 mb-8 flex h-full w-full bg-teal-400"></svg>
+                </div>
+                <p class="">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, lorem vel tincidunt finibus, odio ex tempus ligula, ut
+                    varius ante magna eu metus. Integer malesuada, leo vel volutpat tempor, odio libero dapibus odio, eget bibendum ipsum tellus at
+                    nunc. Aliquam rutrum risus ante, id aliquet nisi feugiat ac.
+                </p>
             </div>
         </section>
     </body>

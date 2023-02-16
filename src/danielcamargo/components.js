@@ -57,7 +57,7 @@ const skills = function () {
             },
         },
         async load() {
-            const res = await fetch('https://nextjs-red-six-46.vercel.app/api/wakatime/WesleyDSantos', { method: 'GET' });
+            const res = await fetch('https://nextjs-red-six-46.vercel.app/api/wakatime/danielcamargo', { method: 'GET' });
             const stats = await res.json();
             const { data } = stats;
             const languagesIWant = ['HTML', 'CSS', 'JavaScript'];

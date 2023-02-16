@@ -70,7 +70,7 @@
             id="home"
             x-data="$home"
             x-init="setup($refs)"
-            class="flex flex-col-reverse items-center bg-slate-800 py-10 px-10 md:flex-row lg:p-10"
+            class="h-screen--20 flex flex-col-reverse items-center bg-slate-800 py-10 px-10 md:flex-row lg:p-10"
         >
             <!--intro box-->
             <div class="flex flex-1 flex-col items-center justify-start space-y-5 py-5 md:items-start md:justify-start md:py-0">
@@ -192,13 +192,47 @@
             </div>
         </section>
         <!--About-->
-        <section>
+        <section class="px-4 py-8 text-slate-300 lg:px-10">
             <!--header-->
-            <div>
-                <span>02 About</span>
-            </div>
+            <h2 class="flex items-center gap-4 py-4">
+                <span><span class="text-teal-400">02 </span>About</span>
+                <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-400"></span>
+            </h2>
             <!--content-->
-            <div></div>
+            <div class="mt-6 flex flex-row">
+                <div class="flex-1 justify-center space-y-8 font-mono">
+                    <p>
+                        I am a <spam class="text-teal-400">software engineer </spam> with a passion for building digital products that make a
+                        difference. I have over 17 years of experience in the tech industry, and I've had the privilege of working with some amazing
+                        teams and technologies along the way. Whether I'm discovering solutions for customers, ramping up projects, or leading teams,
+                        I am always motivated by the challenge of creating something new and impactful.
+                    </p>
+                    <p>
+                        My design thinking skills are always on point, thanks to my background in engineering. I understand that a great product is
+                        about more than just the technology; it's about creating a user experience that is intuitive, efficient, and delightful.
+                        Whether I'm working with a team of developers, product managers, or designers, I bring a focus on empathy and collaboration to
+                        every project.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me fly fishing in the great outdoors. There's something about the peacefulness of being
+                        surrounded by nature and the thrill of reeling in a fish that just recharges my batteries. It's also a great opportunity for
+                        me to reflect on the creative process and apply what I learn to my work.
+                    </p>
+                    <p>
+                        Lastly, I am a lifelong learner, always eager to dive into new technologies and expand my skill set. I have a
+                        <span class="text-teal-400">Bachelor's degree in Computer Science</span> and a Graduate degree in Information Systems
+                        Management, but I know that the real education comes from the projects and teams I work with every day. I bring a positive
+                        attitude and a sense of humor to everything I do, and I believe that laughter is the best ingredient for a successful project.
+                    </p>
+                </div>
+                <!--picture-->
+                <div class="flex flex-1 flex-row justify-end">
+                    <svg class="w-[24rem] max-w-full" viewBox="0 0 384 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="h-[25rem] w-[22.5rem] fill-teal-400" x="24" y="24" />
+                        <rect class="h-[25rem] w-[22.5rem] fill-slate-500" x="0" y="0" width="360" height="400" />
+                    </svg>
+                </div>
+            </div>
         </section>
         <!--Skills-->
         <section></section>

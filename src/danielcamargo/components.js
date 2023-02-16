@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const navbar = function () {
     return {
         open: false,
@@ -11,6 +12,7 @@ const navbar = function () {
         ],
     };
 };
+window.$navbar = navbar;
 
 const home = function () {
     let $refs;
@@ -32,6 +34,39 @@ const home = function () {
         showVideo: false,
     };
 };
-
-window.$navbar = navbar;
 window.$home = home;
+
+const skills = function () {
+    return {
+        languages: [],
+        imageMap: {
+            HTML: {
+                image: './html5.svg',
+                description:
+                    'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.',
+            },
+            CSS: {
+                image: './css.svg',
+                description:
+                    'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.',
+            },
+            JavaScript: {
+                image: './js.svg',
+                description:
+                    'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.',
+            },
+        },
+        async load() {
+            const res = await fetch('https://nextjs-red-six-46.vercel.app/api/wakatime/WesleyDSantos', { method: 'GET' });
+            const stats = await res.json();
+            const { data } = stats;
+            const languagesIWant = ['HTML', 'CSS', 'JavaScript'];
+            this.languages = data.languages.filter(l => languagesIWant.indexOf(l.name) !== -1);
+        },
+        progress(language) {
+            const percentage = (language.decimal / 320) * 100;
+            return `${percentage}%`;
+        },
+    };
+};
+window.$skills = skills;

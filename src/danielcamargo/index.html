@@ -93,7 +93,11 @@
             <!--Box with intro -->
             <div class="flex flex-1 flex-col items-center justify-start space-y-5 py-5 md:items-start md:justify-start md:py-0">
                 <span x-ref="a" class="text-base text-teal-400">Howdy, they call me</span>
-                <h1 class="font-serif text-4xl text-slate-300 lg:text-6xl">Daniel Camargo</h1>
+                <h1
+                    class="bg-gradient-to-r from-slate-200 via-teal-400 to-slate-300 bg-clip-text pb-2 font-serif text-4xl text-transparent text-slate-300 lg:text-6xl"
+                >
+                    Daniel Camargo
+                </h1>
                 <p class="max-w-sm pb-5 text-center text-base text-slate-300 md:max-w-none md:text-left lg:text-lg">
                     Full-stack software engineer by day, fly fishing enthusiast by night. I'm a mission-driven problem-solver with a passion for
                     creating products that truly make a difference. When I'm not coding, you can find me casting a line and enjoying the great
@@ -260,11 +264,33 @@
                 </div>
             </div>
         </section>
-        <section class="px-4 text-slate-300 lg:px-10">
+        <section x-data="$skills" x-init="load()" class="px-4 text-slate-300 lg:px-10">
             <h2 class="flex items-center gap-4 py-4">
                 <span><span class="text-teal-400">03 </span>Skills </span>
                 <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-400"></span>
             </h2>
+            <div class="flex flex-col items-center gap-4 pb-20 md:flex-row">
+                <!-- card -->
+                <template x-for="language in languages">
+                    <div
+                        class="flex h-[25rem] w-[20rem] flex-col justify-between rounded border border-teal-800 bg-slate-900 px-4 py-8 shadow-sm shadow-teal-800"
+                    >
+                        <div class="flex flex-col gap-4">
+                            <img :src="imageMap[language.name].image" alt="CSS Logo" class="h-12 w-12" />
+                            <h3 class="text-2xl text-slate-100" x-text="language.name">Language name</h3>
+                            <p class="text-sm" x-text="imageMap[language.name].description">description</p>
+                        </div>
+                        <div class="flex flex-col gap-4 pt-8">
+                            <div class="h-8 bg-slate-700">
+                                <div class="h-8 bg-teal-700" :style="`width:${progress(language)}`"></div>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <span class="text-4xl" x-text="language.hours">40h</span><span class="text-slate-500">/1,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
         </section>
     </body>
 </html>

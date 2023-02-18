@@ -276,9 +276,9 @@
                         class="flex h-[25rem] w-[20rem] flex-col justify-between rounded border border-teal-800 bg-slate-900 px-4 py-8 shadow-sm shadow-teal-800"
                     >
                         <div class="flex flex-col gap-4">
-                            <img :src="imageMap[language.name].image" alt="CSS Logo" class="h-12 w-12" />
+                            <img :src="language.image" alt="CSS Logo" class="h-12 w-12" />
                             <h3 class="text-2xl text-slate-100" x-text="language.name">Language name</h3>
-                            <p class="text-sm" x-text="imageMap[language.name].description">description</p>
+                            <p class="text-sm" x-text="language.description">description</p>
                         </div>
                         <div class="flex flex-col gap-4 pt-8">
                             <div class="h-8 bg-slate-700">

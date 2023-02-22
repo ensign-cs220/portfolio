@@ -8,6 +8,7 @@
         <script src="../../dist/output.js"></script>
         <script src="./navBar.js"></script>
         <script src="./header.js"></script>
+        <script src="./helpers/fetch.js"></script>
         <link rel="stylesheet" href="./helpers/aboutStyles.css" />
     </head>
 
@@ -78,7 +79,7 @@
             </div>
         </header>
 
-        <section class="about-section" id="about">
+        <div class="about-section overflow-hidden" id="about">
             <div class="relative flex items-center py-5">
                 <h2 class="text-teal-400">02</h2>
                 <h2 class="px-2 text-center text-2xl font-bold">about</h2>
@@ -86,15 +87,43 @@
                 <!--TODO:// Calculate the width of screen, and add the limiter that populates the whole screen -->
             </div>
             <div class="flex flex-col md:flex-row-reverse">
-                <div class="relative mb-8 md:mb-auto md:ml-24">
-                    <img src="./assets/images/Cycling.jpg" alt="Me cycling." />
-                    <svg class="absolute top-4 -right-4 -z-10 mb-8 flex h-full w-full bg-teal-400"></svg>
+                <div class="relative mb-8 h-[25rem] w-[25rem] overflow-hidden bg-green-100 md:mb-auto md:ml-24">
+                    <img class="object-cover" src="./assets/images/Cycling.jpg" alt="Me cycling." />
                 </div>
                 <p class="">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, lorem vel tincidunt finibus, odio ex tempus ligula, ut
                     varius ante magna eu metus. Integer malesuada, leo vel volutpat tempor, odio libero dapibus odio, eget bibendum ipsum tellus at
                     nunc. Aliquam rutrum risus ante, id aliquet nisi feugiat ac.
                 </p>
+            </div>
+        </div>
+
+        <section x-data="skills()" x-init="load()" class="skills-section" id="skills-section">
+            <div class="relative flex items-center py-5">
+                <h2 class="text-teal-400">03</h2>
+                <h2 class="px-2 text-center text-2xl font-bold text-slate-400">skills</h2>
+                <div class="flex-grow border border-dashed border-teal-400"></div>
+                <!--TODO:// Calculate the width of screen, and add the limiter that populates the whole screen -->
+            </div>
+            <div class="flex flex-row">
+                <template x-for="(language, path) in languages">
+                    <div class="overflow-hidden rounded-sm border border-teal-400 bg-slate-800 shadow-lg">
+                        <div class="flex items-center border-l-8 border-blue-500 px-4 py-3">
+                            <img class="mr-2 h-8 w-8" src="$path" alt="Logo" />
+                        </div>
+                        <h2 class="p-1 text-xl font-semibold text-slate-200" x-text="language.name"></h2>
+
+                        <div class="p-4">
+                            <h3 class="mb-2 text-lg font-medium text-gray-700">Subtitle</h3>
+                            <p class="text-gray-600">Subtitle Description</p>
+                        </div>
+                        <div class="w-90% mx-auto mb-4 h-2/5 bg-gray-200"></div>
+                    </div>
+                    <div class="w-96 bg-black">
+                        <h2 style="padding-right: 3rem" x-text="language.name"></h2>
+                        <p x-text="language.digital"></p>
+                    </div>
+                </template>
             </div>
         </section>
     </body>

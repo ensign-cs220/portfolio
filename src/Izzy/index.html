@@ -49,5 +49,45 @@
                 </template>
             </div>
         </div>
+
+        <header class="bg-slate-800 p-4 py-10 text-center font-mono sm:grid-cols-1 lg:grid-cols-2 lg:px-20 lg:text-left">
+            <div>
+                <img src="./assets/images/Face.png" alt="image" class="pb-4 lg:hidden xl:hidden" />
+            </div>
+            <div class="flex">
+                <div class="">
+                    <h1 class="text-lg text-teal-400">Hey, my name is</h1>
+                    <h2 class="py-3 text-3xl text-slate-300 lg:text-5xl">Izzy Mansurov</h2>
+                    <h3 class="py-3 pb-9 text-slate-300">
+                        I'm an iOS Developer with interest in Machine Learning and low-level graphics. I am an avid Snowboarder, ping me if you have a
+                        ride in mind. I, also love history and maps! Check out my projects.
+                    </h3>
+
+                    <div class="text-center">
+                        <button
+                            class="flex w-full items-center justify-center rounded border border-teal-400 p-4 text-slate-300 hover:bg-teal-800 md:w-auto lg:px-6"
+                            onclick="downloadFile('./assets/files/resume.pdf')"
+                        >
+                            <span class="mr-2"> Download my resume</span>
+                            <img src="./assets/icons/download.svg" class="mr-2 w-4" alt="icon" />
+                        </button>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="items-center justify-center pt-3 sm:hidden md:hidden lg:flex">
+                        <img src="./assets/images/Face.png" class="hidden h-auto max-w-sm sm:block" alt="Izzy Mansurov Logo" />
+                    </div>
+                </div>
+            </div>
+        </header>
     </body>
 </html>
+
+<script>
+    function downloadFile(filePath) {
+        const a = document.createElement('a');
+        a.href = filePath;
+        a.download = 'Izzy Mansurov resume';
+        a.click();
+    }
+</script>

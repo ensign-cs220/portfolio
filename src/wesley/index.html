@@ -7,6 +7,7 @@
         <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js" defer></script>
         <script src="navbar.js"></script>
+        <script src="skills.js"></script>
     </head>
 
     <body class="h-full w-full bg-slate-800">
@@ -177,6 +178,114 @@
                     </div>
                 </div>
             </section>
+            <!-- Skills Section -->
+            <section class="flex-col space-y-8 px-8 pt-20">
+                <h2 class="inline-flex h-10 w-full items-center space-x-3">
+                    <span class="font-xl font-regular font-mono text-teal-400">03</span>
+                    <span class="font-regular font-mono text-xl text-white">Skills</span>
+                    <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-600"></span>
+                </h2>
+                <div class="font-regular font-mono text-xl text-slate-300">
+                    <p>
+                        Welcome to the fun zone! Here, you'll find all the skills and projects that I've been tinkering with. From HTML to CSS, and
+                        JavaScript to Python, I've got a little bit of everything on display.
+                    </p>
+                </div>
+                <div id="SkillCards" class="flex flex-col gap-4 lg:flex-row">
+                    <div class="w-96 bg-black">
+                        <h2 class="text-white">CSS</h2>
+                        <p class="text-white">Anything</p>
+                        <p class="text-white">13:47</p>
+                        <div class="h-8 bg-gray-400">
+                            <div class="h-8 bg-teal-500" style="width: 13.8%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div x-data="$skills" x-init="load()" class="flex flex-col gap-4 lg:flex-row">
+                    <template x-for="language in languages">
+                        <div class="w-96 bg-black">
+                            <h2 x-text="language.name"></h2>
+                        </div>
+                    </template>
+                </div>
+            </section>
+            <script>
+                let busy;
+                function getTop5Language(languages) {
+                    const top5 = [];
+                    for (let i = 0; i < languages.length; i++) {
+                        const language = languages[i];
+                        if (language.name === 'Other') {
+                            // Skip this iteration.
+                            continue;
+                        }
+                        // Adding to the array
+                        top5.push(language);
+                        if (top5.length === 5) {
+                            // Stop looping! I already have 5.
+                            break;
+                        }
+                    }
+
+                    return top5;
+                }
+
+                function buildCard(languageStats, description) {
+                    console.log(languageStats);
+                    const container = document.getElementById('SkillCards');
+                    const card = document.createElement('div');
+                    card.classList.add('w-96', 'bg-black', 'text-white');
+                    // Create h2
+                    const h2 = document.createElement('h2');
+                    const h2Text = document.createTextNode(languageStats.name);
+                    h2.appendChild(h2Text);
+                    card.appendChild(h2);
+                    // Create the paragraph
+                    const p = document.createElement('p');
+                    const pText = document.createTextNode(description);
+                    p.appendChild(pText);
+                    card.appendChild(p);
+
+                    // Stats
+                    const p2 = document.createElement('p2');
+                    const p2Text = document.createTextNode(languageStats.digital);
+                    p2.appendChild(p2Text);
+                    card.appendChild(p2);
+
+                    // Progress bar
+                    const div1 = document.createElement('div');
+                    div1.classList.add('bg-gray-400', 'h-8');
+                    const div2 = document.createElement('div');
+                    div2.classList.add('bg-teal-400', 'h-8');
+                    const percentage = (languageStats.decimal / 320) * 100;
+                    console.log('Mastery:', percentage);
+                    div2.style.width = `${percentage}%`;
+                    //There is an error in the line 241. Percentage is not being considered//
+                    div1.appendChild(div2);
+                    card.appendChild(div1);
+
+                    container.appendChild(card);
+                }
+
+                async function simpleGet() {
+                    try {
+                        busy = true;
+                        const res = await fetch('https://nextjs-red-six-46.vercel.app/api/wakatime/WesleyDSantos', { method: 'GET' });
+                        const stats = await res.json();
+                        const data = stats.data;
+                        const languages = data.languages;
+                        const top5 = getTop5Language(languages);
+                        // console.log("My top 5: ", top5);
+                        buildCard(top5[0], 'This is a decription for the card');
+                    } catch (error) {
+                        console.log(error);
+                    } finally {
+                        busy = false;
+                    }
+                }
+
+                simpleGet();
+            </script>
         </div>
     </body>
 </html>

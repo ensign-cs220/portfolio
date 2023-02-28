@@ -4,10 +4,9 @@
         <title>Zack</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
         <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js" defer></script>
-        <script src="./Scripts/navbar.js"></script>
+        <script src="./Scripts/components.js"></script>
     </head>
 
     <body class="bg-slate-800">
@@ -122,7 +121,7 @@
                 </div>
             </div>
             <div class="flex flex-col-reverse lg:flex-row lg:justify-between lg:pt-10">
-                <div class="w-full space-y-6 font-mono text-lg font-normal text-slate-300">
+                <div class="flex w-full flex-col gap-6 font-mono text-lg font-normal text-slate-300">
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam commodi asperiores tempora labore nostrum adipisci! Iure
                         itaque temporibus reiciendis esse officiis illum alias veritatis ex at dignissimos quis, nulla perspiciatis?
@@ -149,6 +148,40 @@
                 </div>
             </div>
         </div>
+
+        <div class="flex flex-col gap-8 px-4 text-slate-300 lg:px-10" x-data="$skills" x-init="load()">
+            <div class="flex gap-4 py-4 font-mono text-xl">
+                <span class="mr-4 text-teal-400">03</span>
+                <span>Skills</span>
+                <div class="w-full py-3 pl-5">
+                    <div class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-400"></div>
+                </div>
+            </div>
+            <p class="hidden md:block">
+                These cards display the number of hours spent programming in the specified languages in real time! The data is pulled from the
+                wakatime extension.
+            </p>
+            <div class="flex flex-col flex-wrap items-center justify-center gap-4 pb-20 md:flex-row">
+                <template x-for="language in languages">
+                    <div
+                        class="flex h-[25rem] w-[20rem] flex-col justify-between rounded border border-teal-800 bg-slate-900 px-4 py-8 shadow-lg shadow-teal-800"
+                    >
+                        <div class="flex flex-col gap-4">
+                            <img :src="language.image" alt="[language.name] Logo" class="h-12 w-12" />
+                            <h3 class="text2xl text-slate-100" x-text="language.name"></h3>
+                            <p class="text-sm" x-text="language.description">Description</p>
+                        </div>
+                        <div class="flex flex-col gap-4 pt-8">
+                            <div class="h-8 bg-slate-700">
+                                <div class="h-8 bg-teal-700" :style="`width:${progress(language)}`"></div>
+                            </div>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <span class="text-4xl" x-text="language.hours">40h</span> <span class="text-slate-500">/1000</span>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
     </body>
 </html>
-<!-- left-1 right-4 bottom-4 -->

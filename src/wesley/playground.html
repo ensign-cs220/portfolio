@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Wesley dos Santos</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../../dist/output.css" rel="stylesheet" />
+        <script src="../../dist/output.js" defer></script>
+        <script src="navbar.js"></script>
+    </head>
+
+    <body class="flex-col justify-center gap-4">
+        <div class="justify-center">
+            <div class="flex flex-row">
+                <input type="text" class="absolute mb-2 block w-[50%] rounded-lg border" />
+                <button
+                    type="submit"
+                    class="absolute rounded-r-lg border p-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                    <svg aria-hidden="true" class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    <span class="sr-only">Search</span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <button
+                class="h-8 whitespace-nowrap rounded-full border bg-sky-500 px-2 text-sm font-semibold text-white hover:bg-sky-700 focus:outline-none focus:ring focus:ring-purple-500"
+            >
+                Save changes
+            </button>
+        </div>
+    </body>
+</html>

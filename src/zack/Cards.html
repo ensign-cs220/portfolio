@@ -1,0 +1,36 @@
+<script>
+    function buildCard(languageStats, description) {
+        const container = document.getElementById('skillsContainer');
+        const card = document.createElement('div');
+        card.classList.add('w-96', 'bg-black');
+        //create h2
+        const h2 = document.createElement('h2');
+        const h2Text = document.createTextNode(languageStats.name);
+        h2.appendChild(h2Text);
+        card.appendChild(h2);
+
+        //create the paragraph
+        const p = document.createElement('p');
+        const pText = document.createTextNode(description);
+        p.appendChild(pText);
+        card.appendChild(p);
+
+        // Stats
+        const p2 = document.createElement('p');
+        const p2Text = document.createTextNode(languageStats.digital);
+        p2.appendChild(psText);
+        card.appendChild(p2);
+
+        // progress bar
+        const div1 = document.createElement('div');
+        div1.classList.add('bg-gray-400', 'h-8');
+        const div2 = document.createElement('div');
+        div2.classList.add('bg-teal-400', 'h-8');
+        const percentage = (languageStats.decimal / 320) * 100;
+        console.log('Competency: ', percentage);
+        div2.style.width = `${percentage}%`;
+        div1.appendChild(div2);
+        card.appendChild(div1);
+        container.appendChild(card);
+    }
+</script>

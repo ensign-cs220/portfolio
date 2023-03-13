@@ -5,114 +5,122 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="../../dist/output.css" rel="stylesheet" />
-        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
         <script src="../../dist/output.js" defer></script>
     </head>
 
     <body>
-        <nav class="flex h-20 items-center justify-between bg-slate-800 px-10 font-mono">
-            <div class="ml-10">
-                <span class="text-xl text-teal-400">./OtavioFurtado</span>
+        <nav
+            class="bg-slate-800 px-4 font-mono md:px-10 lg:h-20 lg:border-b lg:border-b-teal-400 lg:border-opacity-40 lg:px-10"
+            x-data="{navBarOpen:false}"
+        >
+            <div class="lg:flex lg:h-full lg:items-center lg:justify-between">
+                <div class="flex h-20 items-center justify-between">
+                    <span class="text-2xl text-teal-400">./OtavioFurtado</span>
+
+                    <!-- Hamburger Button -->
+                    <button @click="navBarOpen = !navBarOpen">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 text-slate-300 lg:hidden"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Menu -->
+                <div class="lg:inline-flex" :class="{'hidden':!navBarOpen, 'flex':navBarOpen}">
+                    <ul class="mt-5 mb-5 flex w-full flex-col space-y-5 lg:mt-0 lg:mb-0 lg:flex-row lg:gap-8 lg:space-y-0">
+                        <li>
+                            <a href="#">
+                                <span class="text-sm text-teal-400">01.</span>
+                                <span class="text-sm text-slate-300">home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-sm text-teal-400">02.</span>
+                                <span class="text-sm text-slate-300">about</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-sm text-teal-400">03.</span>
+                                <span class="text-sm text-slate-300">skills</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-sm text-teal-400">04.</span>
+                                <span class="text-sm text-slate-300">experience</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-sm text-teal-400">05.</span>
+                                <span class="text-sm text-slate-300">projects</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="text-sm text-teal-400">06.</span>
+                                <span class="text-sm text-slate-300">contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <ul>
-                <!--HOME-->
-                <li class="mr-5 inline-block">
-                    <div x-data="{ open: false }" x-on:click.outside="open = false">
-                        <button x-on:click="open = !open">
-                            <a href="#" aria-current="page"
-                                ><span class="text-base text-teal-400">01.</span>
-                                <span class="text-base text-slate-300">home</span>
-                            </a>
-                        </button>
-                        <!--Dropdown menu for HOME-->
-                        <ul x-show="open">
-                            <li><a href="#">Home Page </a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <!--ABOUT-->
-                <li class="mr-5 inline-block">
-                    <div x-data="{ open: false }" x-on:click.outside="open = false">
-                        <button x-on:click="open = !open">
-                            <a href="#"
-                                ><span class="text-base text-teal-400">02.</span>
-                                <span class="text-base text-slate-300">about</span>
-                            </a>
-                        </button>
-                        <!--Dropdown menu for ABOUT-->
-                        <ul x-show="open">
-                            <li><a href="#">Who am I?</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <!--SKILLS-->
-                <li class="mr-5 inline-block">
-                    <div x-data="{ open: false }" x-on:click.outside="open = false">
-                        <button x-on:click="open = !open">
-                            <a href="#"
-                                ><span class="text-base text-teal-400">03.</span>
-                                <span class="text-base text-slate-300">skills</span>
-                            </a>
-                        </button>
-                        <!--Dropdown menu for SKILLS-->
-                        <ul x-show="open">
-                            <li><a href="#">My Skills</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <!--EXPERIENCE-->
-                <li class="mr-5 inline-block">
-                    <div x-data="{ open: false }" x-on:click.outside="open = false">
-                        <button x-on:click="open = !open">
-                            <a href="#"
-                                ><span class="text-base text-teal-400">04.</span>
-                                <span class="text-base text-slate-300">experience</span>
-                            </a>
-                        </button>
-                        <!--Dropdown menu for EXPERIENCE-->
-                        <ul x-show="open">
-                            <li><a href="#">My Exp.</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <!--PROJECTS-->
-                <li class="mr-5 inline-block">
-                    <div x-data="{ open: false }" x-on:click.outside="open = false">
-                        <button x-on:click="open = !open">
-                            <a href="#"
-                                ><span class="text-base text-teal-400">05.</span>
-                                <span class="text-base text-slate-300">projects</span>
-                            </a>
-                        </button>
-                        <!--Dropdown menu for PROJECTS-->
-                        <ul x-show="open">
-                            <li><a href="#">My Projects</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <!--CONTACT-->
-                <li class="mr-12 inline-block">
-                    <div x-data="{ open: false }" x-on:click.outside="open = false">
-                        <button x-on:click="open = !open">
-                            <a href="#"
-                                ><span class="text-base text-teal-400">06.</span>
-                                <span class="text-base text-slate-300">contact</span>
-                            </a>
-                        </button>
-                        <!--Dropdown menu for CONTACT-->
-                        <ul x-show="open">
-                            <li><a href="#">Phone Number</a></li>
-                            <li><a href="#">Email</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
         </nav>
+
+        <!-- Header -->
+        <div class="flex flex-col items-center bg-slate-800 px-8 py-7 lg:flex-row">
+            <!-- My picture -->
+            <div class="py flex items-center lg:order-2 lg:w-2/5 lg:justify-end">
+                <img class="w-[400px]" src="././images/newironm.png" alt="IronMan" />
+            </div>
+            <!-- Header Text -->
+            <div class="flex flex-col items-center lg:w-3/5 lg:items-start">
+                <h2 class="pb-5 pt-12 font-mono text-base text-teal-400 lg:pt-0">Hey, my name is</h2>
+                <h1 class="pb-5 font-serif text-4xl font-normal text-white lg:text-6xl">Otavio Furtado</h1>
+                <p class="text-center font-serif text-xl text-white lg:text-start">
+                    I'm originally from Brazil, I moved to the United States in 2019 after serving for 2 years as a missionary of the Church of Jesus
+                    Christ of the Latter-Day-Saints. I'm currently studying Computer Science, I'm passionate about soccer, coding, TV shows, and
+                    playing FIFA, but most of my time is spent with my wife Alexandra.
+                </p>
+                <!-- Download resume -->
+                <button class="mt-14 mb-7 box-border h-12 w-full rounded border border-x-teal-400 font-mono text-sm text-teal-400 lg:w-60">
+                    <a href="././images/Mat 104 Exam 1 Concepts -1.pdf" download="Math Test" target="_blank">Download my resume</a>
+                    <span class="inline-grid pl-3.5">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.75 8.625V9.9375C0.75 10.2856 0.888281 10.6194 1.13442 10.8656C1.38056 11.1117 1.7144 11.25 2.0625 11.25H9.9375C10.2856 11.25 10.6194 11.1117 10.8656 10.8656C11.1117 10.6194 11.25 10.2856 11.25 9.9375V8.625M8.625 6L6 8.625M6 8.625L3.375 6M6 8.625V0.75"
+                                stroke="#2DD4BF"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </span>
+                </button>
+                <!-- Video -->
+                <div class="flex items-center">
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M30 31.5373C30 29.636 32.0387 28.4306 33.7053 29.3466L49.092 37.8106C50.8187 38.76 50.8187 41.2413 49.092 42.1906L33.7067 50.6546C32.04 51.5706 30.0013 50.3653 30.0013 48.464V31.5373H30Z"
+                                fill="#94A3B8"
+                            />
+                            <rect x="0.5" y="0.5" width="79" height="79" rx="39.5" stroke="#94A3B8" />
+                        </svg>
+                    </a>
+                    <a class="pl-5 font-mono text-sm font-normal leading-5 text-slate-400" href="https://www.youtube.com/">Watch video</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

@@ -6,6 +6,7 @@
     "files.eol": "\n",
     "cSpell.words": [
         "alpinejs",
+        "andresnavbar",
         "commitlint",
         "conventionalcommits",
         "danielcamargo",
@@ -13,11 +14,13 @@
         "Fira",
         "Ilshidur",
         "jaywcjlove",
+        "joseyanez",
         "outfile",
         "peaceiris",
         "plusplus",
         "tailwindcss",
         "Waka",
         "zacks"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

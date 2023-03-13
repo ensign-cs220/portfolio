@@ -15,6 +15,7 @@ module.exports = {
             fontFamily: {
                 serif: ['Cormorant', 'serif'],
                 mono: ['Fira Code', 'mono'],
+                cursive: ['Itim', 'cursive'],
             },
         },
     },

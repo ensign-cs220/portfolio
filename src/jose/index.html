@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jose</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../../dist/output.css" rel="stylesheet" />
+        <script src="../../dist/output.js" defer></script>
+        <script src="navbar.js"></script>
+    </head>
+    <body class="bg-slate-800 font-mono text-slate-300">
+        <!--- mobile navbar --->
+        <nav x-data="navbar()" class="h-20 bg-slate-800 px-4 font-mono lg:hidden">
+            <div class="flex h-full items-center justify-between">
+                <span class="text-lg-20px text-teal-400">./joseyanez</span>
+                <button @click="open = !open" class="text-slate-300">
+                    <svg
+                        x-show="!open"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="h-8 w-8"
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <svg
+                        x-show="open"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="h-8 w-8"
+                    >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <ul x-show="open" class="absolute right-0 left-0 bg-slate-800 text-sm">
+                <template x-for="(entry, i) in entries">
+                    <li class="w-full">
+                        <a
+                            x-bind:href="entry.targetSection"
+                            class="block whitespace-nowrap p-4 text-slate-300 focus-within:bg-slate-900 hover:text-slate-200 active:text-slate-400"
+                        >
+                            <span class="text-teal-400" x-text=" '0' + (i + 1) + '. '"></span>
+                            <span x-text="entry.name"></span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+        <!--- desktop navbar version --->
+        <nav x-data="navbar()" class="hidden h-20 items-center justify-between bg-slate-800 px-10 font-mono lg:flex">
+            <span class="text-lg text-teal-400">./joseyanez</span>
+            <ul class="flex space-x-8 text-sm">
+                <template x-for="(entry, i) in entries">
+                    <li>
+                        <a x-bind:href="entry.targetSection" class="whitespace-nowrap text-slate-300 hover:text-slate-200 active:text-slate-400">
+                            <span class="text-teal-400" x-text="'0' + (i + 1) + '.'"></span>
+                            <span x-text="entry.name"></span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section
+            id="home"
+            x-data="$home"
+            x-init="setup($refs)"
+            class="h-screen--20 flex flex-col-reverse items-center bg-slate-800 py-4 px-5 md:flex-row md:justify-between lg:p-10"
+        >
+            <!--box wit intro-->
+            <div class="md:item-start flex flex-1 flex-col items-center justify-start space-y-5 py-5 md:justify-start md:py-0">
+                <span x-ref="a" class="text-base text-teal-400">Hi, I'm</span>
+                <h1 class="font-serif text-4xl text-slate-300 lg:text-6xl">José Yanez</h1>
+                <p class="max-w-sm pb-5 text-center text-base text-slate-300 md:max-w-none md:text-left lg:text-lg">
+                    Software engineering student at Ensign College. When I'm not doing homework for school you can find me playing Chopin or Debussy
+                    on the piano, or going to the gym.
+                </p>
+                <!--download resume-->
+                <div>
+                    <a
+                        href="Resume Jose Yanez.pdf"
+                        target="_blank"
+                        class="inline-flex items-center gap-3 whitespace-nowrap rounded border border-teal-400 px-8 py-4 text-sm text-teal-400 hover:border-teal-300 hover:bg-slate-700 hover:text-teal-300 focus:border-teal-300 focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-300 focus:ring-offset-2 focus:ring-offset-slate-800 active:border-teal-500 active:text-teal-500"
+                    >
+                        Download my resume
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-[0.875rem] w-[0.875rem]"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <button
+                        @click="play()"
+                        class="group inline-flex items-center justify-center gap-5 pt-5 text-slate-400 hover:text-slate-300 focus:outline-none"
+                    >
+                        <span
+                            class="inline-flex h-20 w-20 items-center justify-center rounded-full border border-slate-400 p-3 group-hover:border-slate-300 group-focus:border-teal-300 group-focus:text-teal-300 group-focus:ring-2 group-focus:ring-teal-300 group-focus:ring-offset-2 group-focus:ring-offset-slate-800"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-8 w-8"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                />
+                            </svg>
+                        </span>
+                        <span class="text-sm">Watch video</span>
+                    </button>
+                </div>
+            </div>
+            <!--picture-->
+            <div class="px-4 py-8 text-slate-300 lg:px-10">
+                <div class="w-[25rem] max-w-xs md:h-[33rem] lg:max-w-none">
+                    <img src="me.png" class="object-cover" alt="My Picture" />
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

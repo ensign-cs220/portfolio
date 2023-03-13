@@ -13,9 +13,9 @@
         <script src="components.js"></script>
     </head>
 
-    <body class="font-mono">
+    <body class="bg-slate-800 font-mono text-slate-300">
         <!-- Navbar-->
-        <nav x-data="$navbar">
+        <nav x-data="$navbar" class="w-full">
             <!-- Mobile Navbar -->
             <div class="h-20 items-center bg-slate-800 px-4 lg:hidden">
                 <div class="flex h-full items-center justify-between">
@@ -45,12 +45,21 @@
                         </svg>
                     </button>
                 </div>
-                <ul x-show="open" class="absolute right-0 left-0 bg-slate-800 text-sm">
+                <ul
+                    x-show="open"
+                    x-transition:enter="transition ease-out duration-100"
+                    x-transition:enter-start="transform opacity-0 scale-95"
+                    x-transition:enter-end="transform opacity-100 scale-100"
+                    x-transition:leave="transition ease-in duration-75"
+                    x-transition:leave-start="transform opacity-100 scale-100"
+                    x-transition:leave-end="transform opacity-0 scale-95"
+                    class="absolute right-0 left-0 bg-slate-800 text-sm"
+                >
                     <template x-for="(entry, i) in entries">
                         <li class="w-full">
                             <a
                                 x-bind:href="entry.targetSection"
-                                class="block whitespace-nowrap p-4 text-slate-300 focus-within:bg-slate-900 hover:bg-slate-900 hover:text-slate-200 active:text-slate-400"
+                                class="block whitespace-nowrap p-4 focus-within:bg-slate-900 hover:bg-slate-900 hover:text-slate-200 active:text-slate-400"
                             >
                                 <span class="text-teal-400" x-text="'0' + (i + 1) + '. '">01.</span>
                                 <span x-text="entry.name"></span>
@@ -79,13 +88,17 @@
             id="home"
             x-data="$home"
             x-init="setup($refs)"
-            class="flex flex-col-reverse items-center bg-slate-800 py-4 px-5 md:flex-row md:justify-between lg:p-10"
+            class="h-screen--20 flex flex-col-reverse items-center bg-slate-800 py-4 px-5 md:flex-row md:justify-between lg:p-10"
         >
             <!--Box with intro -->
             <div class="flex-1 flex-col space-y-5 py-5 md:items-start md:justify-start md:py-0">
                 <span x-ref="a" class="text-base text-teal-400">Howdy, they call me</span>
-                <h1 class="font-serif text-4xl text-slate-300 lg:text-6xl">Daniel Camargo</h1>
-                <p class="max-w-sm pb-5 text-center text-base text-slate-300 md:max-w-none md:text-left lg:text-lg">
+                <h1
+                    class="bg-gradient-to-r from-slate-200 via-teal-400 to-slate-300 bg-clip-text pb-2 font-serif text-4xl text-transparent text-slate-300 lg:text-6xl"
+                >
+                    Daniel Camargo
+                </h1>
+                <p class="max-w-sm pb-5 text-center text-base text-slate-300 md:max-w-none md:text-justify lg:text-lg">
                     Full-stack software engineer by day, fly fishing enthusiast by night. I'm a mission-driven problem-solver with a passion for
                     creating products that truly make a difference. When I'm not coding, you can find me casting a line and enjoying the great
                     outdoors. Let's connect and see how we can make an impact together.
@@ -199,6 +212,84 @@
                 <div class="w-[25rem] max-w-xs md:h-[33rem] lg:max-w-none">
                     <img src="me.png" class="object-cover" alt="My Picture" />
                 </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="px-4 py-8 text-slate-300 lg:px-10">
+            <h2 class="flex items-center gap-4 py-4">
+                <span><span class="text-teal-400">02 </span>About </span>
+                <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-400"></span>
+            </h2>
+            <div class="mt-6 flex flex-row">
+                <div class="flex-1 space-y-8">
+                    <p class="text-justify">
+                        I am a <spam class="text-teal-400">software engineer</spam> with a passion for building digital products that make a
+                        difference. I have over <spam class="text-teal-400">17 years of experience </spam> in the tech industry, and I've had the
+                        privilege of working with some amazing teams and technologies along the way. Whether I'm discovering solutions for customers,
+                        ramping up projects, or <spam class="text-teal-400">leading teams</spam>, I am always motivated by the challenge of creating
+                        something new and impactful.
+                    </p>
+                    <p class="text-justify">
+                        My design thinking skills are always on point, thanks to my background in engineering. I understand that a great product is
+                        about more than just the technology; it's about creating a user experience that is intuitive, efficient, and delightful.
+                        Whether I'm working with a team of developers, product managers, or designers, I bring a focus on empathy and collaboration to
+                        every project.
+                    </p>
+                    <p class="text-justify">
+                        When I'm not coding, you can find me fly fishing in the great outdoors. There's something about the peacefulness of being
+                        surrounded by nature and the thrill of reeling in a fish that just recharges my batteries. It's also a great opportunity for
+                        me to reflect on the creative process and apply what I learn to my work.
+                    </p>
+                    <p class="text-justify">
+                        Lastly, I am a lifelong learner, always eager to dive into new technologies and expand my skill set. I have a
+                        <span class="text-teal-400">Bachelor's degree in Computer Science</span> and a Graduate degree in Information Systems
+                        Management, but I know that the real education comes from the projects and teams I work with every day. I bring a positive
+                        attitude and a sense of humor to everything I do, and I believe that laughter is the best ingredient for a successful project.
+                    </p>
+                </div>
+                <div class="flex flex-1 flex-row justify-end">
+                    <div class="relative">
+                        <svg class="w-[24rem] max-w-full" viewBox="0 0 384 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="h-[25rem] w-[22.5rem] fill-slate-500" x="0" y="0" width="360" height="400" />
+                        </svg>
+                        <svg
+                            class="absolute top-4 -right-4 -z-10 w-[24rem] max-w-full"
+                            viewBox="0 0 384 424"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect class="h-[25rem] w-[22.5rem] fill-teal-500" x="0" y="0" width="360" height="400" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section x-data="$skills" x-init="load()" class="px-4 text-slate-300 lg:px-10">
+            <h2 class="flex items-center gap-4 py-4">
+                <span><span class="text-teal-400">03 </span>Skills </span>
+                <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-400"></span>
+            </h2>
+            <div class="flex flex-col flex-wrap items-center gap-4 pb-20 md:flex-row">
+                <!-- card -->
+                <template x-for="language in languages">
+                    <div
+                        class="flex h-[25rem] w-[20rem] flex-col justify-between rounded border border-teal-800 bg-slate-900 px-4 py-8 shadow-sm shadow-teal-800"
+                    >
+                        <div class="flex flex-col gap-4">
+                            <img :src="language.image" alt="CSS Logo" class="h-12 w-12" />
+                            <h3 class="text-2xl text-slate-100" x-text="language.name">Language name</h3>
+                            <p class="text-sm" x-text="language.description">description</p>
+                        </div>
+                        <div class="flex flex-col gap-4 pt-8">
+                            <div class="h-8 bg-slate-700">
+                                <div class="h-8 bg-teal-700" :style="`width:${progress(language)}`"></div>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <span class="text-4xl" x-text="language.hours">40h</span><span class="text-slate-500">/1,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </template>
             </div>
         </section>
     </body>

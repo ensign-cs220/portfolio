@@ -4,32 +4,240 @@
         <title>Miriam</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <link href="../../dist/output.css" rel="stylesheet" />
         <script src="../../dist/output.js" defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </head>
-    <body>
-        <nav class="flex h-20 items-center justify-between bg-slate-800 px-10 font-mono">
-            <span class="text-lg text-teal-400">./danielcamargo</span>
-            <ul class="flex space-x-8 text-sm">
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">01. </span>home</a>
+    <body class="bg-gray-800">
+        <!--nav-->
+        <nav class="p-5 font-mono text-indigo-400 shadow md:flex md:items-center md:justify-between">
+            <div class="flex items-center justify-between">
+                <div>./miriamburton</div>
+
+                <span class="mx-2 block cursor-pointer text-slate-300 hover:text-slate-200 active:text-slate-400 md:hidden">
+                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                </span>
+            </div>
+
+            <ul
+                class="absolute left-0 top-[-400px] z-10 w-full bg-gray-800 py-4 opacity-0 transition-all duration-500 ease-in md:static md:z-auto md:flex md:w-auto md:items-center md:py-0 md:opacity-100"
+            >
+                <li class="mx-4">
+                    <a href="#">01. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">home</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">02. </span>about</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">02. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">about</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">03. </span>skills</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">03. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">skills</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">04. </span>experience</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">04. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">experience</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">05. </span>projects</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">05. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">projects</span></a>
                 </li>
-                <li class="text-slate-300 hover:text-slate-200 active:text-slate-400">
-                    <a href="#"><span class="text-teal-400">06. </span>contact</a>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#">06. <span class="text-slate-300 hover:text-slate-200 active:text-slate-400">contact</span></a>
                 </li>
             </ul>
         </nav>
+
+        <!--home-->
+        <section class="flex flex-col p-4 md:flex-row-reverse md:justify-between">
+            <div class="md:w-1/3">
+                <img src="images/Profile Pic 2.jpg" alt="An image of me." />
+            </div>
+            <div class="flex-col px-10 text-center font-serif text-slate-300 md:text-left">
+                <h2 class="my-4 font-mono text-indigo-400">Hey, my name is</h2>
+                <h1 class="my-2 text-4xl">Miriam Burton</h1>
+                <div class="md:justify-start">
+                    <p class="my-4 md:w-2/3">
+                        I'm a software enginer with a knack for visual design. I live my life by two things: consitency and efficency. I'm good at
+                        locating and solving problems, keeping things orginised, and keeping a positive outlook!
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <button
+                        class="flex w-full justify-center rounded border border-indigo-400 px-8 py-4 font-mono text-indigo-400 hover:border-indigo-300 hover:text-indigo-300 active:border-indigo-500 active:text-indigo-500 md:w-fit md:justify-start"
+                    >
+                        <span class="mx-4">Download my resume</span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-6 w-6"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                            />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex flex-row justify-center md:justify-start">
+                    <button
+                        class="group flex flex-row items-center py-4 text-center text-lg text-slate-400 hover:text-slate-300 active:text-slate-500 md:justify-start"
+                    >
+                        <div
+                            class="flex-center flex h-14 w-14 items-center rounded-full border border-slate-400 p-4 group-hover:border-slate-300 group-active:border-slate-500"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-6 w-6"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                />
+                            </svg>
+                        </div>
+
+                        <span class="m-4">Watch video</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--about-->
+        <section class="px-10 font-serif text-slate-300 lg:text-left">
+            <div class="flex items-center">
+                <div class="w-40 py-10 text-lg md:px-8"><span class="font-mono text-indigo-400">02 </span>About</div>
+                <div class="h-0 w-full border border-dashed border-indigo-400"></div>
+            </div>
+            <div class="flex flex-col md:flex-row-reverse">
+                <div class="relative mb-8 md:mb-auto md:ml-24">
+                    <img src="Images/Unicorn Dark cropped.png" alt="An image of a unicorn that I drew." />
+                    <svg class="absolute top-4 -right-4 -z-10 mb-8 flex h-full w-full bg-indigo-400"></svg>
+                </div>
+                <div class="md:justify-start">
+                    <p class="md:w-2/3">
+                        Hey humans! I'm currently a student at <span class="text-indigo-400">Ensign College</span> persuing a bachelor's degree in
+                        <span class="text-indigo-400">software engineering</span>. When I was growing up, I had always wanted to be an author, but
+                        when I took a programming class my senor year of highschool, I fell in love with coding. It can be frustrating at times, but
+                        I'd argue that's what makes creating a working program so <span class="text-indigo-400">satisfying</span>! Nothing in the
+                        world is more amazing than finally breaking through a tough problem.<br /><br />
+                        When I'm not coding, I like to stretch my brain by learing <span class="text-indigo-400">Spanish</span> and
+                        <span class="text-indigo-400">Russian.</span> I'm not fluent in either yet, but I hope to be one day! Another thing that I
+                        enjoy is <span class="text-indigo-400">art.</span> I bought my first tablet in 2021, and it's probably one of my best
+                        investments. I mainly use it to create static drawings, but I've also been making
+                        <span class="text-indigo-400">animations</span> and <span class="text-indigo-400">pixel art</span> for some games I've been
+                        working on for fun.<br /><br />
+                        I've been a student at Ensign College since the fall of 2021. I feel lucky that I started right as all the covid restrictions
+                        were letting up. I really enojoy all of my programming classes, but I also
+                        <span class="text-indigo-400">love learning</span> in general. There are many great people at Ensign that have helped me in my
+                        learning journey, and it's been a great experience. I hope to pay it forward one day after I graduate with my bachelor's by
+                        coding something that will <span class="text-indigo-400">change the world</span>. I'm not sure what quite what it will be yet;
+                        it could be anything from the world's best lie detector to the most practical quantum computers to an app that will help users
+                        with their mental health. It could be all three! I'll see where the journey takes me.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- skills-->
+        <section x-data="$skills" x-init="load()" class="px-4 text-slate-300 lg:px-10">
+            <h2 class="flex items-center">
+                <span class="w-40 py-10 text-lg md:px-8"><span class="font-mono text-indigo-400">03 </span>Skills</span>
+                <span class="h-0 w-full border border-dashed border-indigo-400"></span>
+            </h2>
+            <div class="flex flex-col flex-wrap items-center gap-4 pb-20 md:flex-row">
+                <template x-for="language in languages">
+                    <div
+                        class="flex h-[25rem] w-[20rem] flex-col justify-between rounded border border-indigo-800 bg-gray-900 px-4 py-8 shadow-sm shadow-indigo-800"
+                    >
+                        <div class="flex flex-col gap-4">
+                            <img :src="language.image" alt="logo" class="h-12 w-12" />
+                            <h3 class="text-2xl text-slate-100" x-text="language.name">language name</h3>
+                            <p class="text-sm" x-text="language.description">language description</p>
+                        </div>
+                        <div class="flex flex-col gap-4 pt-8">
+                            <div class="h-8 bg-gray-700">
+                                <div class="h-8 bg-indigo-700" :style="`width:${progress(language)}`"></div>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <span class="text-4xl" x-text="language.hours"></span><span class="text-4xl">h</span
+                                ><span class="text-slate-500">/1,000 h</span>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </section>
     </body>
+
+    <script>
+        // script for nav menu button
+        function Menu(e) {
+            let list = document.querySelector('ul');
+            e.name === 'menu'
+                ? ((e.name = 'close'), list.classList.add('top-[80px]'), list.classList.add('opacity-100'))
+                : ((e.name = 'menu'), list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'));
+        }
+
+        // script for the skills section cards
+        const skills = function () {
+            return {
+                languages: [
+                    {
+                        name: 'HTML',
+                        image: 'images/html logo.png',
+                        description:
+                            'HTML is essential for creating web content with a wide range of applications, constantly evolving to meet changing needs and remaining vital.',
+                    },
+                    {
+                        name: 'Dart',
+                        image: 'images/dart logo.png',
+                        description:
+                            'Dart is a language designed for ease of mobile-app creation. It is object-oriented and class-based with C-style syntax.',
+                    },
+                    {
+                        name: 'Java',
+                        image: 'images/java logo.png',
+                        description:
+                            'Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.',
+                    },
+                    {
+                        name: 'JavaScript',
+                        image: 'images/javascript logo.png',
+                        description:
+                            'JavaScript has grown to become one of the most popular programming languages in the world, with a large and active developer community.',
+                    },
+                    // {
+                    //     name: 'CSS',
+                    //     image: 'images/css logo.png',
+                    //     description: 'CSS is critical for creating visually appealing and consistent web designs across devices and platforms.',
+                    // },
+                ],
+                async load() {
+                    const res = await fetch('https://nextjs-red-six-46.vercel.app/api/wakatime/miriamjb', { method: 'GET' });
+                    const stats = await res.json();
+                    const { data } = stats;
+                    const languagesWanted = ['HTML', 'CSS', 'JavaScript', 'Java', 'Dart'];
+                    const langStatsList = data.languages.filter(l => languagesWanted.indexOf(l.name) !== -1);
+                    for (let i = 0; i < langStatsList.length; i++) {
+                        const langStats = langStatsList[i];
+                        const targetLang = this.languages.find(l => l.name === langStats.name);
+                        targetLang.hours = langStats.hours;
+                        targetLang.decimal = langStats.decimal;
+                    }
+                },
+                progress(language) {
+                    const percentage = (language.decimal / 320) * 100;
+                    return `${percentage}%`;
+                },
+            };
+        };
+        window.$skills = skills;
+    </script>
 </html>

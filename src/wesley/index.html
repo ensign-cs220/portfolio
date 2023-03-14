@@ -10,7 +10,7 @@
         <script src="skills.js"></script>
     </head>
 
-    <body class="h-full w-full bg-slate-800">
+    <body class="h-full w-full bg-slate-800 text-slate-300">
         <div class="min-h-screen">
             <!-- mobile navbar -->
             <nav x-data="navbar()" class="h-20 bg-slate-800 px-4 font-mono lg:hidden">
@@ -185,19 +185,73 @@
                     <span class="font-regular font-mono text-xl text-white">Skills</span>
                     <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-600"></span>
                 </h2>
-                <div class="font-regular font-mono text-xl text-slate-300">
+                <div class="font-regular hidden font-mono text-xl text-slate-300 lg:block">
                     <p>
-                        Welcome to the fun zone! Here, you'll find all the skills and projects that I've been tinkering with. From HTML to CSS, and
-                        JavaScript to Python, I've got a little bit of everything on display.
+                        Welcome to the fun zone! Here, you'll find the skills that I've been improving, especially for this project. From HTML to CSS,
+                        and JavaScript. The hours are being retrieved from the <em class="text-teal-400">WAKATIME</em>.
                     </p>
                 </div>
-                <!-- skills -->
-                <div class="flex flex-col gap-4 lg:flex-row">
+                <div class="flex flex-col flex-wrap items-center gap-8 pb-20 md:flex-row md:justify-start">
+                    <!-- card -->
                     <template x-for="language in languages">
-                        <div class="w-96 bg-black">
-                            <h2 x-text="language.name"></h2>
+                        <div
+                            class="flex h-[25rem] w-[20rem] flex-col justify-between rounded border border-teal-800 bg-slate-900 px-4 py-8 font-mono text-slate-300 shadow-sm shadow-teal-800"
+                        >
+                            <div class="flex flex-col gap-4">
+                                <img :src="language.image" alt="CSS Logo" class="h-12 w-12" />
+                                <h3 class="text-2xl text-slate-100" x-text="language.name">Language name</h3>
+                                <p class="text-sm" x-text="language.description">description</p>
+                            </div>
+                            <div class="flex flex-col gap-4 pt-8">
+                                <div class="h-8 bg-slate-700">
+                                    <div class="h-8 bg-teal-700" :style="`width:${progress(language)}`"></div>
+                                </div>
+                                <div class="flex flex-row items-center">
+                                    <span class="text-4xl" x-text="language.hours">40h</span><span class="text-slate-500">/1,000</span>
+                                </div>
+                            </div>
                         </div>
                     </template>
+                </div>
+            </section>
+            <!--Experience Section -->
+            <section x-data="experience" class="mb-8 space-y-2 px-4 lg:px-8">
+                <div class="flex flex-col">
+                    <h2 class="inline-flex h-10 w-full items-center space-x-3">
+                        <span class="font-xl font-regular font-mono text-teal-400">04</span>
+                        <span class="font-regular font-mono text-xl text-white">Experience</span>
+                        <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-600"></span>
+                    </h2>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex flex-col items-center">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="12.3333" width="11.7851" height="11.7851" transform="rotate(-45 4 12.3333)" fill="#8892C0" />
+                            <rect
+                                x="1.41421"
+                                y="12.5"
+                                width="15.6777"
+                                height="15.6777"
+                                transform="rotate(-45 1.41421 12.5)"
+                                stroke="#64FFDA"
+                                stroke-width="2"
+                            />
+                        </svg>
+                        <span class="border-left flex-grow border-spacing-3 border-l-2 border-dotted border-teal-600"></span>
+                    </div>
+
+                    <div>
+                        <div class="mb-4 gap-1">
+                            <h1 id="job_title" class="text-mono font-regular text-lg text-slate-200">Acme - Front-End Developer</h1>
+                            <h2 id="date" class="text-mono font-regular text-sm text-slate-400">07/2010 - 02/2018</h2>
+                        </div>
+                        <div class="gap-2">
+                            <p id="decription" class="text-mono font-regular text-base text-slate-300">
+                                Communicate and work with multi-disciplinary team of architects, UX designer & developer.
+                            </p>
+                            <p class="text-mono font-regular text-base text-slate-300">Write performant and maintainable code with Vue.Js.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

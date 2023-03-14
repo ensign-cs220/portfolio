@@ -6,7 +6,6 @@ const navbar = function () {
             { name: 'about', targetSection: '#about' },
             { name: 'skills', targetSection: '#skills' },
             { name: 'experience', targetSection: '#experience' },
-            { name: 'project', targetSection: '#project' },
             { name: 'contact', targetSection: '#contact' },
         ],
     };

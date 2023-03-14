@@ -76,3 +76,36 @@ const skills = function () {
     };
 };
 window.$skills = skills;
+
+const experience = function () {
+    return {
+        entries: [
+            {
+                place: 'IsoTalent',
+                date: 'Jun 2021 - Jul 2022',
+                description: `
+                <p>
+                    Working with the Product Team to discover strong solutions for a digital product to support
+                    hourly-based external recruiting services. Our platform is built on top of
+                    <span class="text-teal-400">firebase</span> technologies, including Firestore, Cloud Functions (NodeJS + Typescript),
+                    Sveltekit, and Typesense.
+                </p>
+                `,
+            },
+            {
+                place: 'DevSquad',
+                date: 'Oct 2016 - Jul 2021',
+                description: `
+                <p>
+                    Hands-on removing hard and complex technical blocks, ramping up special projects,
+                    and promoting good practices in product strategy, product management, and software architecture.
+                    Our primary stack was Laravel, Vue, and TailwindCSS.
+                    I’ve also worked on products built with Spring Boot, NodeJS, React, and Angular.
+                </p>
+                `,
+            },
+        ],
+    };
+};
+
+window.$experience = experience;

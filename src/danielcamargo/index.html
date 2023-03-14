@@ -264,7 +264,8 @@
                 </div>
             </div>
         </section>
-        <section x-data="$skills" x-init="load()" class="px-4 text-slate-300 lg:px-10">
+        <!-- Skills -->
+        <section id="skills" x-data="$skills" x-init="load()" class="px-4 text-slate-300 lg:px-10">
             <h2 class="flex items-center gap-4 py-4">
                 <span><span class="text-teal-400">03 </span>Skills </span>
                 <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-400"></span>
@@ -287,6 +288,39 @@
                             <div class="flex flex-row items-center">
                                 <span class="text-4xl" x-text="language.hours">40h</span><span class="text-slate-500">/1,000</span>
                             </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </section>
+        <!-- Experience -->
+        <section id="experience" x-data="$experience" class="px-4 text-slate-300 lg:px-10">
+            <h2 class="flex items-center gap-4 py-4">
+                <span><span class="text-teal-400">04 </span>Experience </span>
+                <span class="flex-grow border-spacing-3 border-t-2 border-dotted border-teal-400"></span>
+            </h2>
+            <div class="pb-20">
+                <template x-for="(entry, i) in entries">
+                    <div class="flex flex-row gap-4">
+                        <div class="flex flex-col items-center">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4" y="12.3333" width="11.7851" height="11.7851" transform="rotate(-45 4 12.3333)" fill="#8892C0" />
+                                <rect
+                                    x="1.41421"
+                                    y="12.5"
+                                    width="15.6777"
+                                    height="15.6777"
+                                    transform="rotate(-45 1.41421 12.5)"
+                                    stroke="#64FFDA"
+                                    stroke-width="2"
+                                />
+                            </svg>
+                            <span class="flex-grow border-spacing-3 border-l-2 border-dotted border-teal-400"></span>
+                        </div>
+                        <div :class="{'pb-8': i < entries.length - 1}">
+                            <h3 class="text-lg text-slate-200" x-text="entry.place">Place</h3>
+                            <div class="mt-1 text-sm text-slate-400" x-text="entry.date">07/2010 - 02/2018</div>
+                            <div class="mt-4 space-y-2" x-html="entry.description">A description...</div>
                         </div>
                     </div>
                 </template>
